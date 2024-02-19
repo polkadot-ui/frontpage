@@ -1,5 +1,5 @@
-/* @license Copyright 2024 @polkadot-cloud/frontpage authors & contributors
-SPDX-License-Identifier: GPL-3.0-only */
+/* @license Copyright 2024 @polkadot-ui/frontpage authors & contributors
+SPDX-License-Identifier: MIT */
 
 import { Edit } from "../../lib/Edit";
 import { Note } from "../../lib/Note";
@@ -20,7 +20,7 @@ export const Doc = ({ folder, npm }: DocProps) => {
       />
       <p>
         <a
-          href="https://github.com/polkadot-cloud/library/blob/main/packages/cloud-react/lib/complex/Odometer/index.tsx"
+          href="https://github.com/polkadot-ui/library/blob/main/packages/ui-react/lib/complex/Odometer/index.tsx"
           target="_blank"
           rel="noreferrer"
         >

@@ -1,8 +1,8 @@
-/* @license Copyright 2024 @polkadot-cloud/library authors & contributors
-SPDX-License-Identifier: GPL-3.0-only */
+/* @license Copyright 2024 @polkadot-ui/library authors & contributors
+SPDX-License-Identifier: MIT */
 
-/* cloud theme variables */
-.theme-cloud {
+/* ui theme variables */
+.theme-ui {
   --accent-color-primary-light: rgb(211 48 121);
   --accent-color-primary-dark: rgb(211 48 121);
   --accent-color-secondary-light: #4d3091;
@@ -14,7 +14,7 @@ SPDX-License-Identifier: GPL-3.0-only */
 }
 
 /* light theme colors */
-.cloud-theme-light {
+.ui-theme-light {
   --background-default: #f8f7f7;
   --background-primary: #f3f2f2;
   --border-secondary-color: #cfcccc;
@@ -31,7 +31,7 @@ SPDX-License-Identifier: GPL-3.0-only */
 }
 
 /* dark theme colors */
-.cloud-theme-dark {
+.ui-theme-dark {
   --background-default: rgb(45 41 45);
   --background-primary: rgb(36 32 36);
   --text-color-primary: #b8b3b9;

@@ -1,13 +1,13 @@
-/* @license Copyright 2024 @polkadot-cloud/frontpage authors & contributors
-SPDX-License-Identifier: GPL-3.0-only */
+/* @license Copyright 2024 @polkadot-ui/frontpage authors & contributors
+SPDX-License-Identifier: MIT */
 
 import { SimpleEditor } from "../../lib/SimpleEditor";
 
 export const ThemeExample = () => {
   const code = `// Top of app hierarchy. E.g. index.tsx, main.tsx.
 
-import "@polkadot-cloud/core/accent/kusama-relay.css";
-import "@polkadot-cloud/core/theme/default/index.css";
+import "@polkadot-ui/core/accent/kusama-relay.css";
+import "@polkadot-ui/core/theme/default/index.css";
 
 ...
 

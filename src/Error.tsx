@@ -1,6 +1,6 @@
 import { useGlitch } from "react-powerglitch";
 import "./styles/app.scss";
-import IconSVG from "./svg/icon.svg?react";
+import IconSVG from "./svg/polkadot_black.svg?react";
 
 export const Error = () => {
   const glitch = useGlitch({

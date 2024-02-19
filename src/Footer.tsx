@@ -1,8 +1,8 @@
-// Copyright 2024 @polkadot-cloud/frontpage authors & contributors
-// SPDX-License-Identifier: GPL-3.0-only
+// Copyright 2024 @polkadot-ui/frontpage authors & contributors
+// SPDX-License-Identifier: MIT
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import IconSVG from "./svg/icon-filled.svg?react";
+import IconSVG from "./svg/polkadot_black.svg?react";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export const Footer = () => {
@@ -16,18 +16,18 @@ export const Footer = () => {
         <div>
           <h4>
             &copy; Copyright {new Date().getUTCFullYear()} &nbsp;
-            <span>Polkadot Cloud Authors & Contributors.</span>
+            <span>Polkadot UI Authors & Contributors.</span>
           </h4>
         </div>{" "}
         <div>
           <h4 className="license">
             Licensed with{" "}
             <a
-              href="https://spdx.org/licenses/GPL-3.0-only.html"
+              href="https://spdx.org/licenses/MIT.html"
               target="_blank"
               rel="noreferrer"
             >
-              GPL-3.0-only
+              MIT
             </a>
           </h4>
         </div>
@@ -35,7 +35,7 @@ export const Footer = () => {
       <section>
         <h4>
           <a
-            href="https://github.com/polkadot-cloud/library"
+            href="https://github.com/polkadot-ui/library"
             target="_blank"
             rel="noreferrer"
           >

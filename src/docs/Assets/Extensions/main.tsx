@@ -1,5 +1,5 @@
-/* @license Copyright 2024 @polkadot-cloud/frontpage authors & contributors
-SPDX-License-Identifier: GPL-3.0-only */
+/* @license Copyright 2024 @polkadot-ui/frontpage authors & contributors
+SPDX-License-Identifier: MIT */
 
 import { Edit } from "../../lib/Edit";
 import { Note } from "../../lib/Note";
@@ -30,7 +30,7 @@ export const Doc = ({ folder, npm }: DocProps) => {
       <p>
         Web3 wallet extension data can be imported from{" "}
         <a
-          href="https://github.com/polkadot-cloud/library/blob/2cb2f6f92c795bf939d21e36a36b43b760ab38a8/packages/assets/lib/extensions/index.tsx#L26"
+          href="https://github.com/polkadot-ui/library/blob/2cb2f6f92c795bf939d21e36a36b43b760ab38a8/packages/assets/lib/extensions/index.tsx#L26"
           target="_blank"
           rel="noreferrer"
         >
@@ -38,7 +38,7 @@ export const Doc = ({ folder, npm }: DocProps) => {
         </a>{" "}
         and{" "}
         <a
-          href="https://github.com/polkadot-cloud/library/blob/2cb2f6f92c795bf939d21e36a36b43b760ab38a8/packages/assets/lib/extensions/index.tsx#L94"
+          href="https://github.com/polkadot-ui/library/blob/2cb2f6f92c795bf939d21e36a36b43b760ab38a8/packages/assets/lib/extensions/index.tsx#L94"
           target="_blank"
           rel="noreferrer"
         >
@@ -157,7 +157,7 @@ export const Doc = ({ folder, npm }: DocProps) => {
           To open a PR and add additional extensions to this list, refer to the
           instructions hosted in this package's{" "}
           <a
-            href="https://github.com/polkadot-cloud/library/tree/main/packages/assets#adding-web-extension-wallets"
+            href="https://github.com/polkadot-ui/library/tree/main/packages/assets#adding-web-extension-wallets"
             target="_blank"
             rel="noreferrer"
           >

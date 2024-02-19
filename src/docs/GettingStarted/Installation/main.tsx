@@ -1,5 +1,5 @@
-/* @license Copyright 2024 @polkadot-cloud/frontpage authors & contributors
-SPDX-License-Identifier: GPL-3.0-only */
+/* @license Copyright 2024 @polkadot-ui/frontpage authors & contributors
+SPDX-License-Identifier: MIT */
 
 import { Link } from "react-router-dom";
 import { Edit } from "../../lib/Edit";
@@ -18,12 +18,12 @@ export const Doc = ({ folder }: DocProps) => {
       <Edit folder={folder} />
       <Header
         title="Installation"
-        subtitle="Install Polkadot Cloud packages and super charge your Polkadot dApp."
+        subtitle="Install Polkadot UI packages and super charge your Polkadot dApp."
         npm={undefined}
       />
       <H2 id="basic-installation">Basic Installation</H2>
       <p>
-        If your project requires Polkadot Cloud CSS variables, assets, or
+        If your project requires Polkadot UI CSS variables, assets, or
         utilities, install the following dependencies:
       </p>
       <InstallBasic />
@@ -48,8 +48,8 @@ export const Doc = ({ folder }: DocProps) => {
       <H2 id="installation-for-react">Installation for React</H2>
 
       <p>
-        Many of the UI components of <code>@polkadot&#8209;cloud/react</code>{" "}
-        use CSS variables from <code>@polkadot&#8209;cloud/core</code>. If you
+        Many of the UI components of <code>@polkadot&#8209;ui/react</code>{" "}
+        use CSS variables from <code>@polkadot&#8209;ui/core</code>. If you
         are only using headless components from <code>react</code>, then{" "}
         <code>core</code> is not required and <code>react</code> can be
         installed on its own:
@@ -78,7 +78,7 @@ export const Doc = ({ folder }: DocProps) => {
       <CSSThemes />
 
       <p>
-        That's it! You're now ready to start using Polkadot Cloud UI components.
+        That's it! You're now ready to start using Polkadot UI UI components.
       </p>
 
       <Note>

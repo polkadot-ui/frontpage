@@ -1,7 +1,7 @@
-// Copyright 2024 @polkadot-cloud/frontpage authors & contributors
-// SPDX-License-Identifier: GPL-3.0-only
+// Copyright 2024 @polkadot-ui/frontpage authors & contributors
+// SPDX-License-Identifier: MIT
 
-import { setStateWithRef } from "@polkadot-cloud/utils";
+import { setStateWithRef } from "@polkadot-ui/utils";
 import { useState, useRef, ReactNode, createContext, useContext } from "react";
 import { defaultThemeContext } from "./defaults";
 import type { Mode, ThemeContextInterface } from "./types";

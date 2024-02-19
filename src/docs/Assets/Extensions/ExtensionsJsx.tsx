@@ -1,12 +1,12 @@
-/* @license Copyright 2024 @polkadot-cloud/frontpage authors & contributors
-SPDX-License-Identifier: GPL-3.0-only */
+/* @license Copyright 2024 @polkadot-ui/frontpage authors & contributors
+SPDX-License-Identifier: MIT */
 
 import { SimpleEditor } from "../../lib/SimpleEditor";
-import { PolkadotVault } from "@polkadot-cloud/assets/extensions/jsx/PolkadotVault";
+import { PolkadotVault } from "@polkadot-ui/assets/extensions/jsx/PolkadotVault";
 import { Demo } from "../../lib/Demo";
 
 export const ExtensionsJsx = () => {
-  const code = `import { PolkadotVault } from "@polkadot-cloud/assets/extensions/jsx/PolkadotVault";
+  const code = `import { PolkadotVault } from "@polkadot-ui/assets/extensions/jsx/PolkadotVault";
 
 const App = () => (
   <PolkadotVault />

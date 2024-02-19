@@ -1,5 +1,5 @@
-/* @license Copyright 2024 @polkadot-cloud/frontpage authors & contributors
-SPDX-License-Identifier: GPL-3.0-only */
+/* @license Copyright 2024 @polkadot-ui/frontpage authors & contributors
+SPDX-License-Identifier: MIT */
 
 @use "variables" as v;
 @use "docs";
@@ -89,8 +89,8 @@ SPDX-License-Identifier: GPL-3.0-only */
       margin-right: 0.75rem;
 
       > svg {
-        max-width: 100%;
-        max-height: 100%;
+        max-width: 90%;
+        max-height: 90%;
       }
     }
 
@@ -204,8 +204,8 @@ SPDX-License-Identifier: GPL-3.0-only */
     }
 
     .icon {
-      fill: var(--accent-color-primary);
-      stroke: var(--background-default);
+      // fill: var(--accent-color-primary);
+      // stroke: var(--background-default);
       width: 2.5rem;
       height: 2.5rem;
       margin-right: 1rem;

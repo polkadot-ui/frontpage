@@ -1,10 +1,10 @@
-/* @license Copyright 2024 @polkadot-cloud/frontpage authors & contributors
-SPDX-License-Identifier: GPL-3.0-only */
+/* @license Copyright 2024 @polkadot-ui/frontpage authors & contributors
+SPDX-License-Identifier: MIT */
 
 import { Doc } from "./main";
 
 export const Overlay = () => (
   <div className="doc">
-    <Doc npm="@polkadot-cloud/react" folder="Components/Overlay" />
+    <Doc npm="@polkadot-ui/react" folder="Components/Overlay" />
   </div>
 );

@@ -1,10 +1,10 @@
-/* @license Copyright 2024 @polkadot-cloud/frontpage authors & contributors
-SPDX-License-Identifier: GPL-3.0-only */
+/* @license Copyright 2024 @polkadot-ui/frontpage authors & contributors
+SPDX-License-Identifier: MIT */
 
 import { SimpleEditor } from "../../../lib/SimpleEditor";
 
 export const HookExample = () => {
-  const code = `import { useExtensions } from '@polkadot-cloud/react/hooks';
+  const code = `import { useExtensions } from '@polkadot-ui/react/hooks';
 
 const App = () => {
   const { extensions } = useExtensions();

@@ -1,10 +1,10 @@
-/* @license Copyright 2024 @polkadot-cloud/frontpage authors & contributors
-SPDX-License-Identifier: GPL-3.0-only */
+/* @license Copyright 2024 @polkadot-ui/frontpage authors & contributors
+SPDX-License-Identifier: MIT */
 
 import { SimpleEditor } from "../../../lib/SimpleEditor";
 
 export const ProviderExample = () => {
-  const code = `import { ExtensionsProvider } from '@polkadot-cloud/react/providers';
+  const code = `import { ExtensionsProvider } from '@polkadot-ui/react/providers';
 
 const AppWithProvider = () => (
   <ExtensionsProvider>

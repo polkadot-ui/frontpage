@@ -1,13 +1,13 @@
-/* @license Copyright 2024 @polkadot-cloud/frontpage authors & contributors
-SPDX-License-Identifier: GPL-3.0-only */
+/* @license Copyright 2024 @polkadot-ui/frontpage authors & contributors
+SPDX-License-Identifier: MIT */
 
 import { useTheme } from "../../../contexts/Theme";
-import { valEmpty } from "@polkadot-cloud/react/utils";
+import { valEmpty } from "@polkadot-ui/react/utils";
 // Import each supported theme here.
-import "@polkadot-cloud/core/accent/polkadot-relay.css";
-import "@polkadot-cloud/core/accent/kusama-relay.css";
-import "@polkadot-cloud/core/accent/westend-relay.css";
-import "@polkadot-cloud/core/theme/default/index.css";
+import "@polkadot-ui/core/accent/polkadot-relay.css";
+import "@polkadot-ui/core/accent/kusama-relay.css";
+import "@polkadot-ui/core/accent/westend-relay.css";
+import "@polkadot-ui/core/theme/default/index.css";
 
 import { DemoProps } from "./types";
 

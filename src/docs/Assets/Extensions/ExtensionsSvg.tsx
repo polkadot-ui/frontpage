@@ -1,34 +1,34 @@
-/* @license Copyright 2024 @polkadot-cloud/frontpage authors & contributors
-SPDX-License-Identifier: GPL-3.0-only */
+/* @license Copyright 2024 @polkadot-ui/frontpage authors & contributors
+SPDX-License-Identifier: MIT */
 
 import { SimpleEditor } from "../../lib/SimpleEditor";
-import EnkryptSVG from "@polkadot-cloud/assets/extensions/svg/enkrypt.svg?react";
-import FearlessWalletSVG from "@polkadot-cloud/assets/extensions/svg/fearlesswallet.svg?react";
-import MetamaskSVG from "@polkadot-cloud/assets/extensions/svg/metamask.svg?react";
-import NovaWalletSVG from "@polkadot-cloud/assets/extensions/svg/novawallet.svg?react";
-import PolkadotJSSVG from "@polkadot-cloud/assets/extensions/svg/polkadotjs.svg?react";
-import PolkaGateSVG from "@polkadot-cloud/assets/extensions/svg/polkagate.svg?react";
-import SubwalletJSSVG from "@polkadot-cloud/assets/extensions/svg/subwalletjs.svg?react";
-import TalismanSVG from "@polkadot-cloud/assets/extensions/svg/talisman.svg?react";
-import LedgerSVG from "@polkadot-cloud/assets/extensions/svg/ledger.svg?react";
-import LedgerSquareSVG from "@polkadot-cloud/assets/extensions/svg/ledgersquare.svg?react";
-import PolkadotVaultSVG from "@polkadot-cloud/assets/extensions/svg/polkadotvault.svg?react";
-import WalletConnectSVG from "@polkadot-cloud/assets/extensions/svg/walletconnect.svg?react";
+import EnkryptSVG from "@polkadot-ui/assets/extensions/svg/enkrypt.svg?react";
+import FearlessWalletSVG from "@polkadot-ui/assets/extensions/svg/fearlesswallet.svg?react";
+import MetamaskSVG from "@polkadot-ui/assets/extensions/svg/metamask.svg?react";
+import NovaWalletSVG from "@polkadot-ui/assets/extensions/svg/novawallet.svg?react";
+import PolkadotJSSVG from "@polkadot-ui/assets/extensions/svg/polkadotjs.svg?react";
+import PolkaGateSVG from "@polkadot-ui/assets/extensions/svg/polkagate.svg?react";
+import SubwalletJSSVG from "@polkadot-ui/assets/extensions/svg/subwalletjs.svg?react";
+import TalismanSVG from "@polkadot-ui/assets/extensions/svg/talisman.svg?react";
+import LedgerSVG from "@polkadot-ui/assets/extensions/svg/ledger.svg?react";
+import LedgerSquareSVG from "@polkadot-ui/assets/extensions/svg/ledgersquare.svg?react";
+import PolkadotVaultSVG from "@polkadot-ui/assets/extensions/svg/polkadotvault.svg?react";
+import WalletConnectSVG from "@polkadot-ui/assets/extensions/svg/walletconnect.svg?react";
 import { Demo } from "../../lib/Demo";
 
 export const ExtensionsSvg = () => {
-  const code = `import EnkryptSVG from "@polkadot-cloud/assets/extensions/svg/enkrypt.svg?react";
-import FearlessWalletSVG from "@polkadot-cloud/assets/extensions/svg/fearlesswallet.svg?react";
-import MetaMaskSVG from "@polkadot-cloud/assets/extensions/svg/metamask.svg?react";
-import NovaWalletSVG from "@polkadot-cloud/assets/extensions/svg/novawallet.svg?react";
-import PolkadotJSSVG from "@polkadot-cloud/assets/extensions/svg/polkadotjs.svg?react";
-import PolkaGateSVG from "@polkadot-cloud/assets/extensions/svg/polkagate.svg?react";
-import SubwalletJSSVG from "@polkadot-cloud/assets/extensions/svg/subwalletjs.svg?react";
-import TalismanSVG from "@polkadot-cloud/assets/extensions/svg/talisman.svg?react";
-import LedgerSVG from "@polkadot-cloud/assets/extensions/svg/ledger.svg?react";
-import LedgerSquareSVG from "@polkadot-cloud/assets/extensions/svg/ledgersquare.svg?react";
-import PolkadotVaultSVG from "@polkadot-cloud/assets/extensions/svg/polkadotvault.svg?react";
-import WalletConnectSVG from "@polkadot-cloud/assets/extensions/svg/walletconnect.svg?react";
+  const code = `import EnkryptSVG from "@polkadot-ui/assets/extensions/svg/enkrypt.svg?react";
+import FearlessWalletSVG from "@polkadot-ui/assets/extensions/svg/fearlesswallet.svg?react";
+import MetaMaskSVG from "@polkadot-ui/assets/extensions/svg/metamask.svg?react";
+import NovaWalletSVG from "@polkadot-ui/assets/extensions/svg/novawallet.svg?react";
+import PolkadotJSSVG from "@polkadot-ui/assets/extensions/svg/polkadotjs.svg?react";
+import PolkaGateSVG from "@polkadot-ui/assets/extensions/svg/polkagate.svg?react";
+import SubwalletJSSVG from "@polkadot-ui/assets/extensions/svg/subwalletjs.svg?react";
+import TalismanSVG from "@polkadot-ui/assets/extensions/svg/talisman.svg?react";
+import LedgerSVG from "@polkadot-ui/assets/extensions/svg/ledger.svg?react";
+import LedgerSquareSVG from "@polkadot-ui/assets/extensions/svg/ledgersquare.svg?react";
+import PolkadotVaultSVG from "@polkadot-ui/assets/extensions/svg/polkadotvault.svg?react";
+import WalletConnectSVG from "@polkadot-ui/assets/extensions/svg/walletconnect.svg?react";
 
 const App = () => (
   <>

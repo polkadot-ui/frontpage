@@ -1,5 +1,5 @@
-/* @license Copyright 2024 @polkadot-cloud/frontpage authors & contributors
-SPDX-License-Identifier: GPL-3.0-only */
+/* @license Copyright 2024 @polkadot-ui/frontpage authors & contributors
+SPDX-License-Identifier: MIT */
 
 import { Edit } from "../../lib/Edit";
 import { Header } from "../../lib/Header";
@@ -16,20 +16,20 @@ export const Doc = ({ folder }: DocProps) => {
       <Edit folder={folder} />
       <Header
         title="Themes and CSS Variables"
-        subtitle="Polkadot Cloud UI components use CSS variables for custom styling."
+        subtitle="Polkadot UI UI components use CSS variables for custom styling."
         npm={undefined}
       />
       <H2 id="introduction">Introduction</H2>
       <p>
-        Polkadot Cloud UI components use CSS variables so apps can customise
+        Polkadot UI UI components use CSS variables so apps can customise
         their look and feel without having to delve into the component source
         code. Apps can either define the CSS variables themselves, or use
-        pre-packaged themes from Polkadot Cloud.
+        pre-packaged themes from Polkadot UI.
       </p>
 
       <H3 id="two-dimensional-theming">2-Dimensional Theming</H3>
       <p>
-        Polkadot Cloud uses a 2-dimensional theme setup, meaning there are 2
+        Polkadot UI uses a 2-dimensional theme setup, meaning there are 2
         separate files for defining CSS variables that comprise a theme:
       </p>
       <ul>
@@ -48,7 +48,7 @@ export const Doc = ({ folder }: DocProps) => {
           Kusama, and a few other identities.
           <br />
           <a
-            href="https://github.com/polkadot-cloud/library/tree/main/packages/cloud-core/lib/accent"
+            href="https://github.com/polkadot-ui/library/tree/main/packages/ui-core/lib/accent"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -65,7 +65,7 @@ export const Doc = ({ folder }: DocProps) => {
           bundle their preferred fonts if developers wish to use them.
           <br />
           <a
-            href="https://github.com/polkadot-cloud/library/tree/main/packages/cloud-core/lib/theme"
+            href="https://github.com/polkadot-ui/library/tree/main/packages/ui-core/lib/theme"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -114,7 +114,7 @@ export const Doc = ({ folder }: DocProps) => {
       <H2 id="using-themes">Using Themes</H2>
 
       <p>
-        To use an accent and theme combo from Polkadot Cloud, simply import them
+        To use an accent and theme combo from Polkadot UI, simply import them
         into your project and wrap your component hierarchy with their
         corresponding classes. Both classes can be applied to the same element.
       </p>
@@ -129,7 +129,7 @@ export const Doc = ({ folder }: DocProps) => {
           If you don't see a accent or theme that suits your needs, you can
           create your own and{" "}
           <a
-            href="https://github.com/polkadot-cloud/library/pulls"
+            href="https://github.com/polkadot-ui/library/pulls"
             target="_blank"
             rel="noreferrer"
           >

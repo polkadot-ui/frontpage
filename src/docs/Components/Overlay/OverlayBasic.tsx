@@ -1,10 +1,10 @@
-/* @license Copyright 2024 @polkadot-cloud/frontpage authors & contributors
-SPDX-License-Identifier: GPL-3.0-only */
+/* @license Copyright 2024 @polkadot-ui/frontpage authors & contributors
+SPDX-License-Identifier: MIT */
 
 import { SimpleEditor } from "../../lib/SimpleEditor";
 
 export const OverlayBasic = () => {
-  const code = `import { Overlay } from '@polkadot-cloud/react';
+  const code = `import { Overlay } from '@polkadot-ui/react';
 import { MyModal, AnotherModal } from './modals';
 import { FallbackModal } from './fallback-modal';
 

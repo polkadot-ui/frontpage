@@ -1,8 +1,8 @@
-// Copyright 2024 @polkadot-cloud/frontpage authors & contributors
-// SPDX-License-Identifier: GPL-3.0-only
+// Copyright 2024 @polkadot-ui/frontpage authors & contributors
+// SPDX-License-Identifier: MIT
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import IconSVG from "./svg/icon.svg?react";
+import IconSVG from "./svg/polkadot_pink.svg?react";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export const Header = () => {
@@ -13,12 +13,12 @@ export const Header = () => {
           <IconSVG />
         </div>
         <div className="title">
-          <h3>Polkadot Cloud Docs</h3>
+          <h3>Polkadot UI Docs</h3>
         </div>
       </section>
       <section>
         <a
-          href="https://github.com/polkadot-cloud/library"
+          href="https://github.com/polkadot-ui/library"
           target="_blank"
           rel="noreferrer"
         >

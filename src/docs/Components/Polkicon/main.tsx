@@ -1,5 +1,5 @@
-/* @license Copyright 2024 @polkadot-cloud/frontpage authors & contributors
-SPDX-License-Identifier: GPL-3.0-only */
+/* @license Copyright 2024 @polkadot-ui/frontpage authors & contributors
+SPDX-License-Identifier: MIT */
 
 import { Edit } from "../../lib/Edit";
 import { Header } from "../../lib/Header";
@@ -23,7 +23,7 @@ export const Doc = ({ folder, npm }: DocProps) => {
       />
       <p>
         <a
-          href="https://github.com/polkadot-cloud/library/blob/main/packages/cloud-react/lib/icons/Polkicon/index.tsx"
+          href="https://github.com/polkadot-ui/library/blob/main/packages/ui-react/lib/icons/Polkicon/index.tsx"
           target="_blank"
           rel="noreferrer"
         >
@@ -41,7 +41,7 @@ export const Doc = ({ folder, npm }: DocProps) => {
           the <code>Polkicon</code> component. To add support to other networks,
           contributors are welcome to{" "}
           <a
-            href="https://github.com/polkadot-cloud/library/pulls"
+            href="https://github.com/polkadot-ui/library/pulls"
             target="_blank"
             rel="noreferrer"
           >
@@ -63,7 +63,7 @@ export const Doc = ({ folder, npm }: DocProps) => {
         <code>outerColor</code> prop. This is the color of the outermost circle
         of the icon. The default <code>outerColor</code> value is the{" "}
         <code>--background-default</code> variable, used throughout the Polkadot
-        Cloud library of UI components.{" "}
+        UI library of UI components.{" "}
       </p>
       <p>
         The default value can be overridden with a custom color, or be set to{" "}
@@ -79,7 +79,7 @@ export const Doc = ({ folder, npm }: DocProps) => {
       </p>
       <p>
         If the address provided to the polkadot icon is not a valid one (using
-        the <code>isValidAddress</code> from <code>@polkadot-cloud/utils</code>
+        the <code>isValidAddress</code> from <code>@polkadot-ui/utils</code>
         ), then a generic "deactive" Polkicon wll appear;
       </p>
       <PolkiconColors />

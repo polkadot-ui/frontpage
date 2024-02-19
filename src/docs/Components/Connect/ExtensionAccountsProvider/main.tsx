@@ -1,5 +1,5 @@
-/* @license Copyright 2024 @polkadot-cloud/frontpage authors & contributors
-SPDX-License-Identifier: GPL-3.0-only */
+/* @license Copyright 2024 @polkadot-ui/frontpage authors & contributors
+SPDX-License-Identifier: MIT */
 
 import { Edit } from "../../../lib/Edit";
 import { Header } from "../../../lib/Header";
@@ -17,7 +17,7 @@ export const Doc = ({ folder, npm }: DocProps) => {
   import {
     ExtensionsProvider,
     ExtensionAccountsProvider,
-  } from "@polkadot-cloud/react/providers";
+  } from "@polkadot-ui/react/providers";
 
   ....
   
@@ -42,7 +42,7 @@ export const Doc = ({ folder, npm }: DocProps) => {
       />
       <p>
         <a
-          href="https://github.com/polkadot-cloud/library/blob/main/packages/cloud-react/lib/connect/ExtensionAccountsProvider/index.tsx"
+          href="https://github.com/polkadot-ui/library/blob/main/packages/ui-react/lib/connect/ExtensionAccountsProvider/index.tsx"
           target="_blank"
           rel="noreferrer"
         >

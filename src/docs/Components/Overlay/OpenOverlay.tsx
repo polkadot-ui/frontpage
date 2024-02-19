@@ -1,10 +1,10 @@
-/* @license Copyright 2024 @polkadot-cloud/frontpage authors & contributors
-SPDX-License-Identifier: GPL-3.0-only */
+/* @license Copyright 2024 @polkadot-ui/frontpage authors & contributors
+SPDX-License-Identifier: MIT */
 
 import { SimpleEditor } from "../../lib/SimpleEditor";
 
 export const OpenOverlay = () => {
-  const code = `import { useOverlay } from '@polkadot-cloud/react/hooks';
+  const code = `import { useOverlay } from '@polkadot-ui/react/hooks';
 
 export const AppComponent = () => {
   const { openModal } = useOverlay().modal;

@@ -1,5 +1,5 @@
-/* @license Copyright 2024 @polkadot-cloud/frontpage authors & contributors
-SPDX-License-Identifier: GPL-3.0-only */
+/* @license Copyright 2024 @polkadot-ui/frontpage authors & contributors
+SPDX-License-Identifier: MIT */
 
 import { Note } from "../../lib/Note";
 import { Edit } from "../../lib/Edit";
@@ -22,7 +22,7 @@ export const Doc = ({ folder, npm }: DocProps) => {
       <p>
         A list of validator operators are available as a{" "}
         <a
-          href="https://github.com/polkadot-cloud/library/blob/main/packages/assets/lib/validators/index.tsx"
+          href="https://github.com/polkadot-ui/library/blob/main/packages/assets/lib/validators/index.tsx"
           target="_blank"
           rel="noreferrer"
         >
@@ -40,7 +40,7 @@ export const Doc = ({ folder, npm }: DocProps) => {
           To open a PR to add an additional validator operator to this list,
           refer to the instructions hosted in this package's{" "}
           <a
-            href="https://github.com/polkadot-cloud/library/tree/main/packages/assets#adding-validator-operators"
+            href="https://github.com/polkadot-ui/library/tree/main/packages/assets#adding-validator-operators"
             target="_blank"
             rel="noreferrer"
           >

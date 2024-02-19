@@ -1,8 +1,8 @@
-// Copyright 2024 @polkadot-cloud/frontpage authors & contributors
-// SPDX-License-Identifier: GPL-3.0-only
+// Copyright 2024 @polkadot-ui/frontpage authors & contributors
+// SPDX-License-Identifier: MIT
 
-import { AnyFunction } from "@polkadot-cloud/react/utils/types";
-import { AnyObject } from "@polkadot-cloud/react/types";
+import { AnyFunction } from "@polkadot-ui/react/utils/types";
+import { AnyObject } from "@polkadot-ui/react/types";
 import { useEffect } from "react";
 
 /*

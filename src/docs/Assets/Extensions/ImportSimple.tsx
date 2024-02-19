@@ -1,14 +1,14 @@
-/* @license Copyright 2024 @polkadot-cloud/frontpage authors & contributors
-SPDX-License-Identifier: GPL-3.0-only */
+/* @license Copyright 2024 @polkadot-ui/frontpage authors & contributors
+SPDX-License-Identifier: MIT */
 
 import { SimpleEditor } from "../../lib/SimpleEditor";
 
 export const ImportSimple = () => {
   const code = `// Import browser extensions as object or array.
-import { Extensions, ExtensionsArray } from "@polkadot-cloud/assets/extensions";
+import { Extensions, ExtensionsArray } from "@polkadot-ui/assets/extensions";
 
 // Import hardware wallets as object or array.
-import { Hardware, HardwareArray } from "@polkadot-cloud/assets/extensions";
+import { Hardware, HardwareArray } from "@polkadot-ui/assets/extensions";
 
 // Get PolkaGate extension metadata.
 console.log(Extensions['polkagate']);

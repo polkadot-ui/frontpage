@@ -1,10 +1,10 @@
-/* @license Copyright 2024 @polkadot-cloud/frontpage authors & contributors
-SPDX-License-Identifier: GPL-3.0-only */
+/* @license Copyright 2024 @polkadot-ui/frontpage authors & contributors
+SPDX-License-Identifier: MIT */
 
 import { SimpleEditor } from "../../lib/SimpleEditor";
 
 export const InstallReactCore = () => {
-  const code = `yarn add @polkadot-cloud/core @polkadot-cloud/react`;
+  const code = `yarn add @polkadot-ui/core @polkadot-ui/react`;
 
   return <SimpleEditor code={code} standalone />;
 };

@@ -1,5 +1,5 @@
-/* @license Copyright 2024 @polkadot-cloud/frontpage authors & contributors
-SPDX-License-Identifier: GPL-3.0-only */
+/* @license Copyright 2024 @polkadot-ui/frontpage authors & contributors
+SPDX-License-Identifier: MIT */
 
 import { Edit } from "../../lib/Edit";
 import { Header } from "../../lib/Header";
@@ -13,13 +13,13 @@ export const Doc = ({ folder }: DocProps) => {
       <Edit folder={folder} />
       <Header
         title="Overview"
-        subtitle="Polkadot Cloud is a library and platform for developing and publishing assets for Polkadot dApps."
+        subtitle="Polkadot UI is a library and platform for developing and publishing assets for Polkadot dApps."
         npm={undefined}
       />
 
       <H2 id="introduction">Introduction</H2>
       <p>
-        Polkadot Cloud hosts a library of assets, ranging from data sources,
+        Polkadot UI hosts a library of assets, ranging from data sources,
         graphical elements, to fully functional components, for app developers
         to plug and play into their codebases.
       </p>
@@ -27,42 +27,42 @@ export const Doc = ({ folder }: DocProps) => {
       <ul>
         <li>
           <a
-            href="https://www.npmjs.com/package/@polkadot-cloud/core"
+            href="https://www.npmjs.com/package/@polkadot-ui/core"
             target="_blank"
             rel="noreferrer"
           >
-            <code>@polkadot-cloud/core</code>
+            <code>@polkadot-ui/core</code>
           </a>
           : Core styles and themes for Polkadot dApps.
         </li>
         <li>
           <a
-            href="https://www.npmjs.com/package/@polkadot-cloud/react"
+            href="https://www.npmjs.com/package/@polkadot-ui/react"
             target="_blank"
             rel="noreferrer"
           >
-            <code>@polkadot-cloud/react</code>
+            <code>@polkadot-ui/react</code>
           </a>
           : Functional React components for Polkadot dApps.
         </li>
         <li>
           <a
-            href="https://www.npmjs.com/package/@polkadot-cloud/assets"
+            href="https://www.npmjs.com/package/@polkadot-ui/assets"
             target="_blank"
             rel="noreferrer"
           >
-            <code>@polkadot-cloud/assets</code>
+            <code>@polkadot-ui/assets</code>
           </a>
           : Data sources and graphical assets for key ecosystem elements, such
           as web extension wallets and validator operators.
         </li>
         <li>
           <a
-            href="https://www.npmjs.com/package/@polkadot-cloud/utils"
+            href="https://www.npmjs.com/package/@polkadot-ui/utils"
             target="_blank"
             rel="noreferrer"
           >
-            <code>@polkadot-cloud/utils</code>
+            <code>@polkadot-ui/utils</code>
           </a>
           : Common utility functions to aid in Polkadot dApp development.
         </li>
@@ -70,8 +70,8 @@ export const Doc = ({ folder }: DocProps) => {
 
       <Note>
         <p>
-          Polkadot Cloud is Javascript framework agonostic.{" "}
-          <code>@polkadot-cloud/react</code> hosts all library components for{" "}
+          Polkadot UI is Javascript framework agonostic.{" "}
+          <code>@polkadot-ui/react</code> hosts all library components for{" "}
           <a href="https://reactjs.org" target="_blank" rel="noreferrer">
             ReactJS
           </a>
@@ -81,7 +81,7 @@ export const Doc = ({ folder }: DocProps) => {
       <Note>
         <p>
           All UI component styling and theming is held in{" "}
-          <code>@polkadot-cloud/core</code>, in which other packages can utilise
+          <code>@polkadot-ui/core</code>, in which other packages can utilise
           to implement the supported UI components in their respective
           frameworks.
         </p>
@@ -92,11 +92,11 @@ export const Doc = ({ folder }: DocProps) => {
       <H2 id="goals">Goals</H2>
 
       <p>
-        Polkadot Cloud aims to fill a void in the Polkadot app developer space
+        Polkadot UI aims to fill a void in the Polkadot app developer space
         by providing high quality, well-maintained, critical assets for app
         developers.
       </p>
-      <p>The goals of Polkadot Cloud are as follows:</p>
+      <p>The goals of Polkadot UI are as follows:</p>
 
       <ul>
         <li>

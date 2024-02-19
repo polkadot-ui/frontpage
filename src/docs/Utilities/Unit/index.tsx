@@ -1,10 +1,10 @@
-/* @license Copyright 2024 @polkadot-cloud/frontpage authors & contributors
-SPDX-License-Identifier: GPL-3.0-only */
+/* @license Copyright 2024 @polkadot-ui/frontpage authors & contributors
+SPDX-License-Identifier: MIT */
 
 import { Doc } from "./main";
 
 export const UtilitiesUnit = () => (
   <div className="doc">
-    <Doc npm="@polkadot-cloud/utils" folder="Utilities/Unit" />
+    <Doc npm="@polkadot-ui/utils" folder="Utilities/Unit" />
   </div>
 );

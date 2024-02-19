@@ -1,9 +1,9 @@
 // Copyright 2024 @paritytech/polkadot-staking-dashboard authors & contributors
-// SPDX-License-Identifier: GPL-3.0-only
+// SPDX-License-Identifier: MIT
 
-import { appendOrEmpty } from "@polkadot-cloud/utils";
+import { appendOrEmpty } from "@polkadot-ui/utils";
 import type { CSSProperties } from "react";
-import { ComponentBase } from "@polkadot-cloud/react/types";
+import { ComponentBase } from "@polkadot-ui/react/types";
 
 export type SideProps = ComponentBase & {
   // whether the side menu should be open on smaller screens.

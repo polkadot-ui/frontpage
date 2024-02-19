@@ -1,9 +1,9 @@
-/* @license Copyright 2024 @polkadot-cloud/frontpage authors & contributors
-SPDX-License-Identifier: GPL-3.0-only */
+/* @license Copyright 2024 @polkadot-ui/frontpage authors & contributors
+SPDX-License-Identifier: MIT */
 
 import { useState } from "react";
 import { SimpleEditor } from "../../lib/SimpleEditor";
-import { Odometer } from "@polkadot-cloud/react/complex/Odometer";
+import { Odometer } from "@polkadot-ui/react/complex/Odometer";
 import BigNumber from "bignumber.js";
 import { Demo } from "../../lib/Demo";
 
