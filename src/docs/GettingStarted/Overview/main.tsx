@@ -81,9 +81,8 @@ export const Doc = ({ folder }: DocProps) => {
       <Note>
         <p>
           All UI component styling and theming is held in{" "}
-          <code>@polkadot-ui/core</code>, in which other packages can utilise
-          to implement the supported UI components in their respective
-          frameworks.
+          <code>@polkadot-ui/core</code>, in which other packages can utilise to
+          implement the supported UI components in their respective frameworks.
         </p>
       </Note>
 
@@ -92,8 +91,8 @@ export const Doc = ({ folder }: DocProps) => {
       <H2 id="goals">Goals</H2>
 
       <p>
-        Polkadot UI aims to fill a void in the Polkadot app developer space
-        by providing high quality, well-maintained, critical assets for app
+        Polkadot UI aims to fill a void in the Polkadot app developer space by
+        providing high quality, well-maintained, critical assets for app
         developers.
       </p>
       <p>The goals of Polkadot UI are as follows:</p>
