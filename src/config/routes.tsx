@@ -114,7 +114,7 @@ const componentsRoutes = [
 
 export const routes: Routes = [
   {
-    path: "/",
+    path: "/frontpage/",
     name: "Home",
     element: <Overview />, // Until we have a landing page
   },
