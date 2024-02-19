@@ -15,7 +15,7 @@ export default defineConfig({
       strict: false,
     },
   },
-  base: '/frontpage/',
+  base: "/frontpage/",
   build: {
     outDir: "build",
   },
