@@ -21,10 +21,10 @@ export const Doc = ({ folder }: DocProps) => {
       />
       <H2 id="introduction">Introduction</H2>
       <p>
-        Polkadot UI UI components use CSS variables so apps can customise
-        their look and feel without having to delve into the component source
-        code. Apps can either define the CSS variables themselves, or use
-        pre-packaged themes from Polkadot UI.
+        Polkadot UI UI components use CSS variables so apps can customise their
+        look and feel without having to delve into the component source code.
+        Apps can either define the CSS variables themselves, or use pre-packaged
+        themes from Polkadot UI.
       </p>
 
       <H3 id="two-dimensional-theming">2-Dimensional Theming</H3>
