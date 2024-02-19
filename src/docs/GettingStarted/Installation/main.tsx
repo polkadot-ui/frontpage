@@ -48,9 +48,9 @@ export const Doc = ({ folder }: DocProps) => {
       <H2 id="installation-for-react">Installation for React</H2>
 
       <p>
-        Many of the UI components of <code>@polkadot&#8209;ui/react</code>{" "}
-        use CSS variables from <code>@polkadot&#8209;ui/core</code>. If you
-        are only using headless components from <code>react</code>, then{" "}
+        Many of the UI components of <code>@polkadot&#8209;ui/react</code> use
+        CSS variables from <code>@polkadot&#8209;ui/core</code>. If you are only
+        using headless components from <code>react</code>, then{" "}
         <code>core</code> is not required and <code>react</code> can be
         installed on its own:
       </p>
