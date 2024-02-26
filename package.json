@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "clear": "rm -rf node_modules",
-    "dev": "vite --base='/frontpage/'",
+    "dev": "vite --base='/'",
     "deploy": "gh-pages -d build",
     "build": "vite build",
     "build:production": "vite build --base='/'",
