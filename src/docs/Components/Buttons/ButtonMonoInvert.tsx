@@ -2,7 +2,7 @@
 SPDX-License-Identifier: MIT */
 
 import { faUser } from "@fortawesome/free-solid-svg-icons";
-import { Button } from "@polkadot-ui/react"
+import { Button } from "@polkadot-ui/react";
 import { SimpleEditor } from "../../lib/SimpleEditor";
 import { Demo } from "../../lib/Demo";
 

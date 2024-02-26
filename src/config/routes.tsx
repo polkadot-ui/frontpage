@@ -72,7 +72,7 @@ const recipesRoutes = [
     path: "account-card",
     name: "Account card",
     element: <AccountCard />,
-  }
+  },
 ];
 
 // utils

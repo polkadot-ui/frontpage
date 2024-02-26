@@ -6,7 +6,7 @@ import {
   ExtraComponentProps,
   IconProps,
 } from "@polkadot-ui/react/complex/AccountCard";
-import { Button } from "@polkadot-ui/react"
+import { Button } from "@polkadot-ui/react";
 import { SimpleEditor } from "../../lib/SimpleEditor";
 import { Demo } from "../../lib/Demo";
 

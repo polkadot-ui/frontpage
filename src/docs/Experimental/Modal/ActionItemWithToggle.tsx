@@ -4,7 +4,7 @@ SPDX-License-Identifier: MIT */
 import { ActionItem } from "@polkadot-ui/react/base/modal/ActionItem";
 import { SimpleEditor } from "../../lib/SimpleEditor";
 import { useState } from "react";
-import { Button } from "@polkadot-ui/react"
+import { Button } from "@polkadot-ui/react";
 import { Demo } from "../../lib/Demo";
 
 export const ActionItemWithToggle = () => {

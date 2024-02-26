@@ -329,7 +329,7 @@ SPDX-License-Identifier: MIT */
     justify-content: flex-end;
     width: 100%;
     opacity: 0.75;
-    transition: opacity 0.15s;
+    transition: opacity var(--transition-duration);
 
     &:hover {
       opacity: 1;
