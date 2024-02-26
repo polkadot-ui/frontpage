@@ -40,7 +40,7 @@
     "@polkadot/util": "^12.6.2",
     "@types/react": "^18.2.57",
     "bignumber.js": "^9.1.2",
-    "eslint": "^8.56.0",
+    "eslint": "^8.57.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^9.1.0",
     "eslint-import-resolver-typescript": "^3.6.1",
