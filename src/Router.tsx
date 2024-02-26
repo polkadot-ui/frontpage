@@ -11,9 +11,9 @@ import { useEffect } from "react";
 import { useUi } from "./contexts/UI";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-import { Body } from "./docs/lib/Structure/Body";
-import { Side } from "./docs/lib/Structure/Side";
-import { Main } from "./docs/lib/Structure/Main";
+import { Side } from "@polkadot-ui/react/base/structure/Side";
+import { Body } from "@polkadot-ui/react/base/structure/Body";
+import { Main } from "@polkadot-ui/react/base/structure/Main";
 
 export const Router = () => {
   const { sideMenuOpen } = useUi();

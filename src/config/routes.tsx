@@ -2,13 +2,22 @@
 SPDX-License-Identifier: MIT */
 import { ReactNode } from "react";
 
+import { Buttons } from "../docs/Components/Buttons";
+import { Loaders } from "../docs/Experimental/Loaders";
+import { Charts } from "../docs/Components/Charts";
 import { Polkicon } from "../docs/Components/Polkicon";
 import { Extensions } from "../docs/Assets/Extensions";
 import { Validators } from "../docs/Assets/Validators";
+import { Grid } from "../docs/Experimental/Grid";
+import { Card } from "../docs/Experimental/Cards";
 import { Overlay } from "../docs/Components/Overlay";
+import { AccountCard } from "../docs/Experimental/AccountCard";
 import { Odometer } from "../docs/Components/Odometer";
+import { Modal } from "../docs/Experimental/Modal";
 import { UtilitiesBase } from "../docs/Utilities/Base";
 import { UtilitiesUnit } from "../docs/Utilities/Unit";
+import { Switch } from "../docs/Experimental/Switch";
+import { Textfield } from "../docs/Experimental/Textfield";
 import { Overview } from "../docs/GettingStarted/Overview";
 import { Installation } from "../docs/GettingStarted/Installation";
 import { UsingThemes } from "../docs/GettingStarted/UsingThemes";
@@ -57,6 +66,15 @@ const gettingStartedRoutes = [
   },
 ];
 
+// recipes
+const recipesRoutes = [
+  {
+    path: "account-card",
+    name: "Account card",
+    element: <AccountCard />,
+  },
+];
+
 // utils
 const utilsRoutes = [
   {
@@ -68,6 +86,44 @@ const utilsRoutes = [
     path: "unit_utilities",
     name: "Unit Utilities",
     element: <UtilitiesUnit />,
+  },
+];
+
+// Layout Components
+const componentsLayoutRoutes = [
+  {
+    path: "grid",
+    name: "Grid",
+    element: <Grid />,
+  },
+  {
+    path: "card",
+    name: "Card",
+    element: <Card />,
+  },
+  {
+    path: "modal",
+    name: "Modal",
+    element: <Modal />,
+  },
+];
+
+// Input Components
+const componentsInputRoutes = [
+  {
+    path: "buttons",
+    name: "Buttons",
+    element: <Buttons />,
+  },
+  {
+    path: "switch",
+    name: "Switch",
+    element: <Switch />,
+  },
+  {
+    path: "textfield",
+    name: "Textfield",
+    element: <Textfield />,
   },
 ];
 
@@ -110,6 +166,16 @@ const componentsRoutes = [
     name: "Overlay",
     element: <Overlay />,
   },
+  {
+    path: "loader",
+    name: "Loaders",
+    element: <Loaders />,
+  },
+  {
+    path: "charts",
+    name: "Charts",
+    element: <Charts />,
+  },
 ];
 
 export const routes: Routes = [
@@ -121,6 +187,9 @@ export const routes: Routes = [
   ...gettingStartedRoutes,
   ...assetsRoutes,
   ...componentsRoutes,
+  ...componentsLayoutRoutes,
+  ...componentsInputRoutes,
+  ...recipesRoutes,
   ...utilsRoutes,
 ];
 
@@ -158,8 +227,20 @@ export const routeCategories: RouteCategories = [
         paths: ["extensions-provider", "extension-accounts-provider"],
       },
       {
-        heading: "UI",
-        paths: ["polkicon", "odometer", "overlay"],
+        paths: ["polkicon"],
+      },
+      {
+        paths: ["odometer"],
+      },
+      {
+        paths: ["overlay"],
+      },
+      {
+        paths: ["charts"],
+      },
+      {
+        heading: "Inputs",
+        paths: ["buttons"],
       },
     ],
   },
@@ -168,6 +249,23 @@ export const routeCategories: RouteCategories = [
     paths: [
       {
         paths: ["base-utilities", "unit_utilities"],
+      },
+    ],
+  },
+  {
+    name: "Experimental",
+    paths: [
+      {
+        heading: "Components",
+        paths: ["loader", "modal", "switch", "textfield"],
+      },
+      {
+        heading: "Layout",
+        paths: ["card", "grid"],
+      },
+      {
+        heading: "Recipes",
+        paths: ["account-card", "modal-connect"],
       },
     ],
   },

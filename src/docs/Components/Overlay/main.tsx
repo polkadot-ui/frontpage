@@ -142,6 +142,9 @@ export const Doc = ({ folder, npm }: DocProps) => {
           <code>--background-modal</code>: Modal card background.
         </li>
         <li>
+          <code>--transition-duration</code>: Duration of modal transitions.
+        </li>
+        <li>
           <code>--accent-color-primary</code>: Default text color of modal links
           and butons.
         </li>
