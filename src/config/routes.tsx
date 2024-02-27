@@ -220,12 +220,18 @@ export const routeCategories: RouteCategories = [
     ],
   },
   {
+    name: "Providers",
+    paths: [{
+      paths: ["extensions-provider"],
+    },
+    {
+      paths: [ "extension-accounts-provider"],
+    },
+    ],
+  },
+  {
     name: "Components",
     paths: [
-      {
-        heading: "Connect",
-        paths: ["extensions-provider", "extension-accounts-provider"],
-      },
       {
         paths: ["polkicon"],
       },
@@ -239,8 +245,22 @@ export const routeCategories: RouteCategories = [
         paths: ["charts"],
       },
       {
-        heading: "Inputs",
-        paths: ["buttons"],
+        paths: ["loader"],
+      },
+      {
+        paths: ["modal"],
+      },
+      {
+        heading: "Layout",
+        paths: ["card", "grid"]
+      },    
+      {
+        heading: "Complex",
+        paths: ["account-card"]
+      },
+      {
+        heading: "Defaults",
+        paths: ["buttons", "switch", "textfield"],
       },
     ],
   },
@@ -249,23 +269,6 @@ export const routeCategories: RouteCategories = [
     paths: [
       {
         paths: ["base-utilities", "unit_utilities"],
-      },
-    ],
-  },
-  {
-    name: "Experimental",
-    paths: [
-      {
-        heading: "Components",
-        paths: ["loader", "modal", "switch", "textfield"],
-      },
-      {
-        heading: "Layout",
-        paths: ["card", "grid"],
-      },
-      {
-        heading: "Recipes",
-        paths: ["account-card", "modal-connect"],
       },
     ],
   },
