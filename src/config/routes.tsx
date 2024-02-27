@@ -221,12 +221,13 @@ export const routeCategories: RouteCategories = [
   },
   {
     name: "Providers",
-    paths: [{
-      paths: ["extensions-provider"],
-    },
-    {
-      paths: [ "extension-accounts-provider"],
-    },
+    paths: [
+      {
+        paths: ["extensions-provider"],
+      },
+      {
+        paths: ["extension-accounts-provider"],
+      },
     ],
   },
   {
@@ -252,11 +253,11 @@ export const routeCategories: RouteCategories = [
       },
       {
         heading: "Layout",
-        paths: ["card", "grid"]
-      },    
+        paths: ["card", "grid"],
+      },
       {
         heading: "Complex",
-        paths: ["account-card"]
+        paths: ["account-card"],
       },
       {
         heading: "Defaults",
