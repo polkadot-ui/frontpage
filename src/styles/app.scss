@@ -19,6 +19,7 @@ SPDX-License-Identifier: MIT */
   background: var(--background-default);
   min-height: 100vh;
   width: 100%;
+  padding-bottom: 8rem;
 
   a {
     color: var(--accent-color-primary);
@@ -127,7 +128,7 @@ SPDX-License-Identifier: MIT */
 
 .main-area {
   /* Leave enough room to show footer where content does not consume 100vh. */
-  min-height: calc(100vh - 5.5rem);
+  min-height: calc(100vh + 5.5rem);
 
   @media (width < 1200px) {
     padding: 0 2.5rem;
@@ -184,6 +185,11 @@ SPDX-License-Identifier: MIT */
   min-height: 5.5rem;
   display: flex;
   align-items: center;
+  position: fixed;
+  bottom: 0;
+  background: var(--background-default);
+  width: 100%;
+  z-index: 99;
 
   @media (width <= 800px) {
     flex-direction: column;
