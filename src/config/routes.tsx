@@ -8,6 +8,7 @@ import { Charts } from "../docs/Components/Charts";
 import { Polkicon } from "../docs/Components/Polkicon";
 import { Extensions } from "../docs/Assets/Extensions";
 import { Validators } from "../docs/Assets/Validators";
+import { NetworkInfo } from "src/docs/Assets/NetworkInfo";
 import { Grid } from "../docs/Experimental/Grid";
 import { Card } from "../docs/Experimental/Cards";
 import { Overlay } from "../docs/Components/Overlay";
@@ -138,6 +139,11 @@ const assetsRoutes = [
     name: "Validator Operators",
     element: <Validators />,
   },
+  {
+    path: "networkInfo",
+    name: "Network Information",
+    element: <NetworkInfo />,
+  },
 ];
 
 const componentsRoutes = [
@@ -216,6 +222,9 @@ export const routeCategories: RouteCategories = [
       },
       {
         paths: ["validators"],
+      },
+      {
+        paths: ["networkInfo"],
       },
     ],
   },
