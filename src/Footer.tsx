@@ -2,14 +2,12 @@
 // SPDX-License-Identifier: MIT
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import IconSVG from "./svg/polkadot_black.svg?react";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export const Footer = () => {
   return (
     <div className="app-footer">
       <section>
-        <IconSVG className="icon" />
         <div>
           <div className="beta">Beta</div>
         </div>
