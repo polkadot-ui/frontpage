@@ -32,7 +32,7 @@ export const Header = () => {
           <IconSVG />
         </div>
         <div className="title">
-          <h3>Polkadot Cloud Docs</h3>
+          <h3>Polkadot UI - Docs</h3>
         </div>
       </section>
       <section>
