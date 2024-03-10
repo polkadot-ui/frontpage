@@ -1,13 +1,6 @@
 /* @license Copyright 2024 @polkadot-ui/frontpage authors & contributors
 SPDX-License-Identifier: MIT */
-
-import {
-  JsonView,
-  allExpanded,
-  defaultStyles,
-  darkStyles,
-} from "react-json-view-lite";
-import "react-json-view-lite/dist/index.css";
+import PolkadotExample from "./polkadot_example.png";
 
 import { Note } from "../../lib/Note";
 import { Edit } from "../../lib/Edit";
@@ -18,7 +11,6 @@ import { NetworkInformationInterface } from "./NetworkInformationInterface";
 import { ChainInterface } from "./ChainInterface";
 import { ChainspecInterface } from "./ChainspecInterface";
 
-import { polkadot } from "@polkadot-ui/assets/external";
 import { useTheme } from "src/contexts/Theme";
 
 export const Doc = ({ folder, npm }: DocProps) => {
@@ -80,11 +72,7 @@ export const Doc = ({ folder, npm }: DocProps) => {
       <PolkadotNetworkInfo />
 
       <p>And the output will be a json like the one seen below:</p>
-      <JsonView
-        data={polkadot}
-        shouldExpandNode={allExpanded}
-        style={mode === "light" ? defaultStyles : darkStyles}
-      />
+      <img src={PolkadotExample} />
     </>
   );
 };
