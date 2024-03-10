@@ -257,9 +257,10 @@ export const routeCategories: RouteCategories = [
       {
         paths: ["loader"],
       },
-      {
-        paths: ["modal"],
-      },
+      // Activate when the modal is actually working
+      // {
+      //   paths: ["modal"],
+      // },
       {
         heading: "Layout",
         paths: ["card", "grid"],
