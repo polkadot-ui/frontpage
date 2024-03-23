@@ -74,15 +74,15 @@ export const Doc = ({ folder, npm }: DocProps) => {
         injecting your provided modal UI into the <code>Overlay</code>{" "}
         component.
       </p>
-      <H3 id="basic-overlay-provider">1. Wrap your app with OverlayProvider</H3>
+      <h3 id="basic-overlay-provider">1. Wrap your app with OverlayProvider</h3>
       <p>
         Import and add the <code>OverlayProvider</code> component to the root of
         your app, or above any components that require the overlay API.{" "}
       </p>
       <OverlayProvider />
-      <H3 id="basic-overlay-component">
+      <h3 id="basic-overlay-component">
         2. Nest the Overlay component and provide modals
-      </H3>
+      </h3>
       <p>
         Import and nest <code>Overlay</code> inside <code>OverlayProvider</code>
         . Use the <code>modals</code> prop to import an array of components you
@@ -107,7 +107,7 @@ export const Doc = ({ folder, npm }: DocProps) => {
           to catch any errors that occur in the modals.
         </p>
       </Note>
-      <H3 id="basic-use-overlay">3. Open modals with the useOverlay hook</H3>
+      <h3 id="basic-use-overlay">3. Open modals with the useOverlay hook</h3>
       <p>
         Import the <code>useOverlay</code> hook and use it to open and close
         modals. The modal component name itself acts as the key of the modal to

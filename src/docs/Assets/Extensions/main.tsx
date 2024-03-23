@@ -169,7 +169,7 @@ export const Doc = ({ folder, npm }: DocProps) => {
 
       <hr className="md" />
 
-      <H3 id="svg-icons">SVG Icons</H3>
+      <h3 id="svg-icons">SVG Icons</h3>
       <p>
         Raw SVG icons exist for each extension. They are set to{" "}
         <code>100%</code> width and height by default, and will resize depending
@@ -198,7 +198,7 @@ export const Doc = ({ folder, npm }: DocProps) => {
         </p>
       </Note>
 
-      <H3 id="jsx-icons">JSX Icons</H3>
+      <h3 id="jsx-icons">JSX Icons</h3>
 
       <p>
         Wallet icons are also available as JSX components for frameworks that
@@ -217,7 +217,7 @@ export const Doc = ({ folder, npm }: DocProps) => {
       <hr className="lg" />
 
       <h2 id="values">Helpers</h2>
-      <H3 id="checkingInjectedWeb3">getExtensionIcon</H3>
+      <h3 id="checkingInjectedWeb3">getExtensionIcon</h3>
       <div className="params inline">
         <p>ExtensionIcon</p>
       </div>

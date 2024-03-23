@@ -11,7 +11,7 @@ export const UtilsComponent = ({
 }: Props) => {
   return (
     <>
-      <H3 id="title">{title}</H3>
+      <h3 id="title">{title}</h3>
       <p>{description}</p>
       <div className="params">
         {params.map((prm) => {

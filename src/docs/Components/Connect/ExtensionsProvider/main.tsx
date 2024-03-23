@@ -65,7 +65,7 @@ export const Doc = ({ folder, npm }: DocProps) => {
           page.
         </p>
       </Note>
-      <H3 id="requires">Warning:</H3>
+      <h3 id="requires">Warning:</h3>
       <Note>
         <p>
           When <code>React.StrictMode</code> is used, it should be placed{" "}
@@ -76,7 +76,7 @@ export const Doc = ({ folder, npm }: DocProps) => {
       </Note>
       <SimpleEditor code={code} standalone />
       <hr />
-      <H3 id="extension-syncing">Extension Syncing</H3>
+      <h3 id="extension-syncing">Extension Syncing</h3>
       <p>
         Web3 extensions are injected into the <code>window.injectedWeb3</code>{" "}
         object, which is an asynchronous process that happens when the window
@@ -93,7 +93,7 @@ export const Doc = ({ folder, npm }: DocProps) => {
       </p>
       <hr className="lg" />
       <h2 id="values">Values</h2>
-      <H3 id="checkingInjectedWeb3">checkingInjectedWeb3</H3>
+      <h3 id="checkingInjectedWeb3">checkingInjectedWeb3</h3>
       <div className="params inline">
         <p>boolean</p>
       </div>
@@ -101,7 +101,7 @@ export const Doc = ({ folder, npm }: DocProps) => {
         Returns a boolean reflecting whether <code>window.injectedWeb3</code> is
         being checked.
       </p>
-      <H3 id="extensionStatus">extensionsStatus</H3>
+      <h3 id="extensionStatus">extensionsStatus</h3>
       <div className="params inline">
         <p>Record&#60;string, ExtensionStatus&#62;</p>
       </div>
@@ -109,7 +109,7 @@ export const Doc = ({ folder, npm }: DocProps) => {
         A key value record of each extension and their status. Empty object by
         default until <code>setExtensionStatus</code> is called.
       </p>
-      <H3 id="setExtensionStatus">setExtensionStatus</H3>
+      <h3 id="setExtensionStatus">setExtensionStatus</h3>
       <div className="params inline">
         <p>(id: string, status: ExtensionStatus): void</p>
       </div>
@@ -119,7 +119,7 @@ export const Doc = ({ folder, npm }: DocProps) => {
         <code>installed</code>, <code>not_authenticated</code> and{" "}
         <code>connected</code>.
       </p>
-      <H3 id="removeExtensionStatus">removeExtensionStatus</H3>
+      <h3 id="removeExtensionStatus">removeExtensionStatus</h3>
       <div className="params inline">
         <p>(id: string): void</p>
       </div>
@@ -127,7 +127,7 @@ export const Doc = ({ folder, npm }: DocProps) => {
         Removes an extension from the <code>extensionsStatus</code> record. This
         should be called when the extension is not found / not installed.
       </p>
-      <H3 id="extensionInstalled">extensionInstalled</H3>
+      <h3 id="extensionInstalled">extensionInstalled</h3>
       <div className="params inline">
         <p>(id: string): boolean</p>
       </div>
@@ -135,7 +135,7 @@ export const Doc = ({ folder, npm }: DocProps) => {
         A function that takes an extension id checks whether the extension is
         installed.
       </p>
-      <H3 id="extensionCanConnect">extensionCanConnect</H3>
+      <h3 id="extensionCanConnect">extensionCanConnect</h3>
       <div className="params inline">
         <p>(id: string): boolean</p>
       </div>

@@ -61,7 +61,7 @@ export const Doc = ({ folder }: DocProps) => {
         If however you wish to use fully fledged UI components out of the box,
         read on.
       </p>
-      <H3 id="with-css-variables">With CSS Variables</H3>
+      <h3 id="with-css-variables">With CSS Variables</h3>
       <p>
         Firstly, install <code>core</code> and <code>react</code> packages
         together:
