@@ -9,7 +9,7 @@ export const Footer = () => {
     <div className="app-footer">
       <section>
         <div>
-          <div className="beta">Beta</div>
+          <div className="alpha">Alpha</div>
         </div>
         <div>
           <h4>
