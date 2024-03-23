@@ -29,47 +29,47 @@ export const Doc = ({ folder, npm }: DocProps) => {
         status="stable"
       />
 
-      <H3 id="button-primary">Button Primary</H3>
+      <h3 id="button-primary">Button Primary</h3>
 
       <ButtonPrimary />
 
-      <H3 id="button-primary-invert">Button Primary Invert</H3>
+      <h3 id="button-primary-invert">Button Primary Invert</h3>
 
       <ButtonPrimaryInvert />
 
-      <H3 id="button-secondary">Button Secondary</H3>
+      <h3 id="button-secondary">Button Secondary</h3>
 
       <ButtonSecondary />
 
-      <H3 id="button-tertiary">Button Tertiary</H3>
+      <h3 id="button-tertiary">Button Tertiary</h3>
 
       <ButtonTertiary />
 
-      <H3 id="button-mono">Button Mono</H3>
+      <h3 id="button-mono">Button Mono</h3>
 
       <ButtonMono />
 
-      <H3 id="button-mono-invert">Button Mono Invert</H3>
+      <h3 id="button-mono-invert">Button Mono Invert</h3>
 
       <ButtonMonoInvert />
 
-      <H3 id="button-text">Button Text</H3>
+      <h3 id="button-text">Button Text</h3>
 
       <ButtonText />
 
-      <H3 id="button-submit">Button Submit</H3>
+      <h3 id="button-submit">Button Submit</h3>
 
       <ButtonSubmit />
 
-      <H3 id="button-submit-invert">Button Submit Invert</H3>
+      <h3 id="button-submit-invert">Button Submit Invert</h3>
 
       <ButtonSubmitInvert />
 
-      <H3 id="button-help">Button Help</H3>
+      <h3 id="button-help">Button Help</h3>
 
       <ButtonHelp />
 
-      <H3 id="button-tab">Button Tab</H3>
+      <h3 id="button-tab">Button Tab</h3>
 
       <ButtonTab />
     </>

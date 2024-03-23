@@ -6,9 +6,8 @@ import { Header } from "../../lib/Header";
 import { Note } from "../../lib/Note";
 import { PolkiconSize } from "./PolkiconSize";
 import { PolkiconTheme } from "./PolkiconTheme";
-import { PolkiconColors } from "./PolkiconColors";
 import { PolkiconCopy } from "./PolkiconCopy";
-import { H2, H3 } from "../../lib/Headers";
+import { PolkiconCopyMsg } from "./PolkiconCopyMsg";
 import { DocProps } from "../../lib/types";
 
 export const Doc = ({ folder, npm }: DocProps) => {
@@ -50,14 +49,14 @@ export const Doc = ({ folder, npm }: DocProps) => {
           .
         </p>
       </Note>
-      <H3 id="size">Size</H3>
+      <h3 id="size">Size</h3>
       <p>
         Sizes can be provided as a <code>string</code> (in px or rem) (e.g.
         "32px", "2.4rem") or a <code>number</code> (e.g. 64). The default size
         is <code>2rem</code>.
       </p>
       <PolkiconSize />
-      <H3 id="outer-color">Outer Color</H3>
+      <h3 id="outer-color">Outer Color</h3>
       <p>
         The background color of <code>Polkicon</code> can be set with the{" "}
         <code>outerColor</code> prop. This is the color of the outermost circle
@@ -70,21 +69,8 @@ export const Doc = ({ folder, npm }: DocProps) => {
         <code>transparent</code>.
       </p>
       <PolkiconTheme />
-      <H3 id="custom-colors">Custom Colors</H3>
-      <p>
-        If a specific pattern or color combination is desired, the{" "}
-        <code>colors</code> prop can be used to override the default color
-        palette. The <code>colors</code> prop accepts an array of colors, which
-        will be applied to the icon in the order they were provided.
-      </p>
-      <p>
-        If the address provided to the polkadot icon is not a valid one (using
-        the <code>isValidAddress</code> from <code>@polkadot-ui/utils</code>
-        ), then a generic "deactive" Polkicon wll appear;
-      </p>
-      <PolkiconColors />
 
-      <H3 id="size">Copy functionality</H3>
+      <h3 id="size">Copy functionality</h3>
       <p>
         Polkicon comes with a copy functionality which allows the user to copy
         the Icon's address. In order to use it the prop/flag <code>copy</code>{" "}
@@ -96,9 +82,18 @@ export const Doc = ({ folder, npm }: DocProps) => {
       </p>
 
       <PolkiconCopy />
+
+      <p>
+        In addition the "copy message" can be altered by providing the
+        <code>copyMsg</code> prop. The default one, that is activated once{" "}
+        <code>copy</code> prop is added is the <code>✔</code>. User can always
+        supply a word or an icon, or a tag for replacing the default one.
+      </p>
+
+      <PolkiconCopyMsg />
       <hr className="md" />
 
-      <H2 id="css-variables-used">CSS Variables Used</H2>
+      <h2 id="css-variables-used">CSS Variables Used</h2>
 
       <ul>
         <li>

@@ -19,7 +19,7 @@ export const Doc = ({ folder }: DocProps) => {
         subtitle="Polkadot UI UI components use CSS variables for custom styling."
         npm={undefined}
       />
-      <H2 id="introduction">Introduction</H2>
+      <h2 id="introduction">Introduction</h2>
       <p>
         Polkadot UI UI components use CSS variables so apps can customise their
         look and feel without having to delve into the component source code.
@@ -27,7 +27,7 @@ export const Doc = ({ folder }: DocProps) => {
         themes from Polkadot UI.
       </p>
 
-      <H3 id="two-dimensional-theming">2-Dimensional Theming</H3>
+      <h3 id="two-dimensional-theming">2-Dimensional Theming</h3>
       <p>
         Polkadot UI uses a 2-dimensional theme setup, meaning there are 2
         separate files for defining CSS variables that comprise a theme:
@@ -75,9 +75,9 @@ export const Doc = ({ folder }: DocProps) => {
         </p>
       </Note>
 
-      <H3 id="accent-variables-applied-to-themes">
+      <h3 id="accent-variables-applied-to-themes">
         How accent variables are applied to themes
-      </H3>
+      </h3>
 
       <p>
         As an intuitive example, an <code>accent</code> file defines the
@@ -111,7 +111,7 @@ export const Doc = ({ folder }: DocProps) => {
 
       <hr className="md" />
 
-      <H2 id="using-themes">Using Themes</H2>
+      <h2 id="using-themes">Using Themes</h2>
 
       <p>
         To use an accent and theme combo from Polkadot UI, simply import them

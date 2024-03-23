@@ -21,7 +21,7 @@ export const Doc = ({ folder }: DocProps) => {
         subtitle="Install Polkadot UI packages and super charge your Polkadot dApp."
         npm={undefined}
       />
-      <H2 id="basic-installation">Basic Installation</H2>
+      <h2 id="basic-installation">Basic Installation</h2>
       <p>
         If your project requires Polkadot UI CSS variables, assets, or
         utilities, install the following dependencies:
@@ -45,7 +45,7 @@ export const Doc = ({ folder }: DocProps) => {
 
       <hr className="md" />
 
-      <H2 id="installation-for-react">Installation for React</H2>
+      <h2 id="installation-for-react">Installation for React</h2>
 
       <p>
         Many of the UI components of <code>@polkadot&#8209;ui/react</code> use
@@ -61,7 +61,7 @@ export const Doc = ({ folder }: DocProps) => {
         If however you wish to use fully fledged UI components out of the box,
         read on.
       </p>
-      <H3 id="with-css-variables">With CSS Variables</H3>
+      <h3 id="with-css-variables">With CSS Variables</h3>
       <p>
         Firstly, install <code>core</code> and <code>react</code> packages
         together:

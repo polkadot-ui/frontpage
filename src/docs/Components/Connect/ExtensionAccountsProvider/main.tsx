@@ -67,7 +67,7 @@ export const Doc = ({ folder, npm }: DocProps) => {
           <code>ExtensionAccountsProvider</code>.
         </p>
       </Note>
-      <H3 id="requires">Requires:</H3>
+      <h3 id="requires">Requires:</h3>
       <p />
       <ul>
         <li>
@@ -78,7 +78,7 @@ export const Doc = ({ folder, npm }: DocProps) => {
           available extensions.
         </li>
       </ul>
-      <H3 id="requires">Warning:</H3>
+      <h3 id="requires">Warning:</h3>
       <Note>
         <p>
           When <code>React.StrictMode</code> is used inside the Application, it
@@ -89,7 +89,7 @@ export const Doc = ({ folder, npm }: DocProps) => {
       </Note>
       <SimpleEditor code={code} standalone />
       <hr />
-      <H3 id="providers-setup">Providers Setup</H3>
+      <h3 id="providers-setup">Providers Setup</h3>
       <p>
         Wrap your app with <code>ExtensionAccountsProvider</code> and provide
         the required props. Note that <code>ExtensionsProvider</code> is also
@@ -97,7 +97,7 @@ export const Doc = ({ folder, npm }: DocProps) => {
         The required props are referenced further down.
       </p>
       <ProviderExample />
-      <H3 id="connecting-extensions">Connecting Extensions</H3>
+      <h3 id="connecting-extensions">Connecting Extensions</h3>
       <p>
         With the providers in place, you can call{" "}
         <code>connectExtensionAccounts</code> to connect to an extension. The
@@ -109,7 +109,7 @@ export const Doc = ({ folder, npm }: DocProps) => {
         It is recommended to carry out validation checks, such as if the
         extension is already connected and if it exists.
       </p>
-      <H3 id="getting-accounts">Getting Accounts</H3>
+      <h3 id="getting-accounts">Getting Accounts</h3>
       <p>
         Once connected to an extension, the subscribed accounts become available
         via <code>extensionAccounts</code>. The <code>address</code>,{" "}
@@ -118,8 +118,8 @@ export const Doc = ({ folder, npm }: DocProps) => {
       </p>
       <AccountsExample />
       <hr className="lg" />
-      <H2 id="props">Props</H2>
-      <H3 id="dappName">dappName</H3>
+      <h2 id="props">Props</h2>
+      <h3 id="dappName">dappName</h3>
       <div className="params inline">
         <p>string</p>
       </div>
@@ -127,12 +127,12 @@ export const Doc = ({ folder, npm }: DocProps) => {
         A dApp identifier that is provided to the web3 extension(s) being
         connected to.
       </p>
-      <H3 id="network">network</H3>
+      <h3 id="network">network</h3>
       <div className="params inline">
         <p>"polkadot" | "kusama" | "westend"</p>
       </div>
       <p>The active network, in lower-case.</p>
-      <H3 id="ss58">ss58</H3>
+      <h3 id="ss58">ss58</h3>
       <div className="params inline">
         <p>number</p>
       </div>
@@ -142,7 +142,7 @@ export const Doc = ({ folder, npm }: DocProps) => {
           Planned to be derived from <code>network</code> in a future release.
         </i>
       </p>
-      <H3 id="activeAccount">activeAccount</H3>
+      <h3 id="activeAccount">activeAccount</h3>
       <div className="params inline">
         <p>string | null</p>
       </div>
@@ -152,7 +152,7 @@ export const Doc = ({ folder, npm }: DocProps) => {
         this active account, if found, when subscribing to extension account.
         See the next prop for more details.
       </p>
-      <H3 id="setActiveAccount">setActiveAccount</H3>
+      <h3 id="setActiveAccount">setActiveAccount</h3>
       <div className="params inline">
         <p>(address: string): void</p>
       </div>
@@ -161,8 +161,8 @@ export const Doc = ({ folder, npm }: DocProps) => {
         subscribing to extension accounts.
       </p>
       <hr className="lg" />
-      <H2 id="values">Values</H2>
-      <H3 id="connectExtensionAccounts">connectExtensionAccounts</H3>
+      <h2 id="values">Values</h2>
+      <h3 id="connectExtensionAccounts">connectExtensionAccounts</h3>
       <div className="params inline">
         <p>(id: string): Promise&#60;boolean&#62;</p>
       </div>
@@ -170,12 +170,12 @@ export const Doc = ({ folder, npm }: DocProps) => {
         Call this function to connect to the provided extension <code>id</code>{" "}
         and subscribe to its accounts.
       </p>
-      <H3 id="extensionAccounts">extensionAccounts</H3>
+      <h3 id="extensionAccounts">extensionAccounts</h3>
       <div className="params inline">
         <p>ExtensionAccount[]</p>
       </div>
       <p>The list of extension accounts that have been subscribed to.</p>
-      <H3 id="extensionAccountsSynced">extensionAccountsSynced</H3>
+      <h3 id="extensionAccountsSynced">extensionAccountsSynced</h3>
       <div className="params inline">
         <p>boolean</p>
       </div>

@@ -31,7 +31,7 @@ export const Doc = ({ folder, npm }: DocProps) => {
         for whole and decimal figures.
       </p>
       <p>Comma formatted numbers and decimals are supported.</p>
-      <H3 id="example">Odometer Example</H3>
+      <h3 id="example">Odometer Example</h3>
       <OdometerH1 />
       <p>
         Odometer is wrapped in a span element, but it is recommended to embed it
@@ -46,7 +46,7 @@ export const Doc = ({ folder, npm }: DocProps) => {
 
       <hr className="md" />
 
-      <H2 id="css-variables-used">CSS Variables Used</H2>
+      <h2 id="css-variables-used">CSS Variables Used</h2>
 
       <ul>
         <li>

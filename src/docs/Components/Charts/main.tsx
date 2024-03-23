@@ -21,7 +21,7 @@ export const Doc = ({ folder, npm }: DocProps) => {
         npm={npm}
         status="stable"
       />
-      <H3 id="pie-chart">Pie Chart</H3>
+      <h3 id="pie-chart">Pie Chart</h3>
       <p>
         The <code>Chart</code> component is a light-weight, CSS-rendered pie and
         donut chart designed to display simple statistics. Charts can support
@@ -36,7 +36,7 @@ export const Doc = ({ folder, npm }: DocProps) => {
 
       <PieSimple />
 
-      <H3 id="empty-chart">Empty Chart</H3>
+      <h3 id="empty-chart">Empty Chart</h3>
 
       <p>
         If the sum of all chart values equate to zero, the chart will display no
@@ -46,7 +46,7 @@ export const Doc = ({ folder, npm }: DocProps) => {
 
       <PieDead />
 
-      <H3 id="donut-chart">Donut Chart</H3>
+      <h3 id="donut-chart">Donut Chart</h3>
 
       <p>
         Donut charts can also be configured using the <code>innerRadius</code>{" "}
@@ -55,7 +55,7 @@ export const Doc = ({ folder, npm }: DocProps) => {
 
       <DonutStyles />
 
-      <H3 id="transition-speed">Transition Speed</H3>
+      <h3 id="transition-speed">Transition Speed</h3>
 
       <p>
         To control transition speed, the <code>speed</code> prop can be passed
@@ -66,7 +66,7 @@ export const Doc = ({ folder, npm }: DocProps) => {
 
       <hr className="md" />
 
-      <H2 id="css-variables-used">CSS Variables Used</H2>
+      <h2 id="css-variables-used">CSS Variables Used</h2>
 
       <ul>
         <li>
