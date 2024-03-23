@@ -92,7 +92,7 @@ export const Doc = ({ folder, npm }: DocProps) => {
         second timeout.
       </p>
       <hr className="lg" />
-      <H2 id="values">Values</H2>
+      <h2 id="values">Values</h2>
       <H3 id="checkingInjectedWeb3">checkingInjectedWeb3</H3>
       <div className="params inline">
         <p>boolean</p>

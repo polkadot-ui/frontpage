@@ -19,7 +19,7 @@ export const Doc = ({ folder }: DocProps) => {
         subtitle="Polkadot UI UI components use CSS variables for custom styling."
         npm={undefined}
       />
-      <H2 id="introduction">Introduction</H2>
+      <h2 id="introduction">Introduction</h2>
       <p>
         Polkadot UI UI components use CSS variables so apps can customise their
         look and feel without having to delve into the component source code.
@@ -111,7 +111,7 @@ export const Doc = ({ folder }: DocProps) => {
 
       <hr className="md" />
 
-      <H2 id="using-themes">Using Themes</H2>
+      <h2 id="using-themes">Using Themes</h2>
 
       <p>
         To use an accent and theme combo from Polkadot UI, simply import them

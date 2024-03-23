@@ -11,11 +11,7 @@ import { NetworkInformationInterface } from "./NetworkInformationInterface";
 import { ChainInterface } from "./ChainInterface";
 import { ChainspecInterface } from "./ChainspecInterface";
 
-import { useTheme } from "src/contexts/Theme";
-
 export const Doc = ({ folder, npm }: DocProps) => {
-  const { mode } = useTheme();
-  console.log("theme", mode);
   return (
     <>
       <Edit folder={folder} />

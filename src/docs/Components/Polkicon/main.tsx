@@ -98,7 +98,7 @@ export const Doc = ({ folder, npm }: DocProps) => {
       <PolkiconCopy />
       <hr className="md" />
 
-      <H2 id="css-variables-used">CSS Variables Used</H2>
+      <h2 id="css-variables-used">CSS Variables Used</h2>
 
       <ul>
         <li>

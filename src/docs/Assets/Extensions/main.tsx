@@ -216,7 +216,7 @@ export const Doc = ({ folder, npm }: DocProps) => {
 
       <hr className="lg" />
 
-      <H2 id="values">Helpers</H2>
+      <h2 id="values">Helpers</h2>
       <H3 id="checkingInjectedWeb3">getExtensionIcon</H3>
       <div className="params inline">
         <p>ExtensionIcon</p>

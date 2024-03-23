@@ -11,7 +11,6 @@ import { Validators } from "../docs/Assets/Validators";
 import { NetworkInfo } from "src/docs/Assets/NetworkInfo";
 import { Grid } from "../docs/Experimental/Grid";
 import { Card } from "../docs/Experimental/Cards";
-import { Overlay } from "../docs/Components/Overlay";
 import { AccountCard } from "../docs/Experimental/AccountCard";
 import { Odometer } from "../docs/Components/Odometer";
 import { Modal } from "../docs/Experimental/Modal";
@@ -167,11 +166,11 @@ const componentsRoutes = [
     name: "Odometer",
     element: <Odometer />,
   },
-  {
-    path: "overlay",
-    name: "Overlay",
-    element: <Overlay />,
-  },
+  // {
+  //   path: "overlay",
+  //   name: "Overlay",
+  //   element: <Overlay />,
+  // },
   {
     path: "loader",
     name: "Loaders",
@@ -228,29 +227,37 @@ export const routeCategories: RouteCategories = [
       },
     ],
   },
+  // {
+  //   name: "Providers",
+  //   paths: [
+  //     {
+  //       paths: ["extensions-provider"],
+  //     },
+  //     {
+  //       paths: ["extension-accounts-provider"],
+  //     },
+  //   ],
+  // },
   {
-    name: "Providers",
-    paths: [
-      {
-        paths: ["extensions-provider"],
-      },
-      {
-        paths: ["extension-accounts-provider"],
-      },
-    ],
-  },
-  {
-    name: "Components",
+    name: "Network Components",
     paths: [
       {
         paths: ["polkicon"],
       },
       {
+        paths: ["account-card"],
+      },
+    ],
+  },
+  {
+    name: "Generic Components",
+    paths: [
+      {
         paths: ["odometer"],
       },
-      {
-        paths: ["overlay"],
-      },
+      // {
+      //   paths: ["overlay"],
+      // },
       {
         paths: ["charts"],
       },
@@ -265,14 +272,10 @@ export const routeCategories: RouteCategories = [
         heading: "Layout",
         paths: ["card", "grid"],
       },
-      {
-        heading: "Complex",
-        paths: ["account-card"],
-      },
-      {
-        heading: "Defaults",
-        paths: ["buttons", "switch", "textfield"],
-      },
+      // {
+      //   heading: "Defaults",
+      //   paths: ["buttons", "switch", "textfield"],
+      // },
     ],
   },
   {

@@ -3,7 +3,6 @@ SPDX-License-Identifier: MIT */
 
 import { Edit } from "../../lib/Edit";
 import { Header } from "../../lib/Header";
-import { H2 } from "../../lib/Headers";
 import { Note } from "../../lib/Note";
 import { DocProps } from "../../lib/types";
 
@@ -17,7 +16,7 @@ export const Doc = ({ folder }: DocProps) => {
         npm={undefined}
       />
 
-      <H2 id="introduction">Introduction</H2>
+      <h2 id="introduction">Introduction</h2>
       <p>
         Polkadot UI hosts a library of assets, ranging from data sources,
         graphical elements, to fully functional components, for app developers
@@ -88,7 +87,7 @@ export const Doc = ({ folder }: DocProps) => {
 
       <hr className="md" />
 
-      <H2 id="goals">Goals</H2>
+      <h2 id="goals">Goals</h2>
 
       <p>
         Polkadot UI aims to fill a void in the Polkadot app developer space by

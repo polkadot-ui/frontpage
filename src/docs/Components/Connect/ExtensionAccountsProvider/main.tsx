@@ -118,7 +118,7 @@ export const Doc = ({ folder, npm }: DocProps) => {
       </p>
       <AccountsExample />
       <hr className="lg" />
-      <H2 id="props">Props</H2>
+      <h2 id="props">Props</h2>
       <H3 id="dappName">dappName</H3>
       <div className="params inline">
         <p>string</p>
@@ -161,7 +161,7 @@ export const Doc = ({ folder, npm }: DocProps) => {
         subscribing to extension accounts.
       </p>
       <hr className="lg" />
-      <H2 id="values">Values</H2>
+      <h2 id="values">Values</h2>
       <H3 id="connectExtensionAccounts">connectExtensionAccounts</H3>
       <div className="params inline">
         <p>(id: string): Promise&#60;boolean&#62;</p>
