@@ -9,7 +9,6 @@ import { ProviderExample } from "./ProviderExample";
 import { ConnectExample } from "./ConnectExample";
 import { Note } from "../../../lib/Note";
 import { AccountsExample } from "./AccountsExample";
-import { H2, H3 } from "../../../lib/Headers";
 import { SimpleEditor } from "../../../lib/SimpleEditor";
 
 export const Doc = ({ folder, npm }: DocProps) => {

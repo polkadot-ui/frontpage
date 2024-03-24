@@ -1,9 +1,9 @@
 /* @license Copyright 2024 @polkadot-ui/frontpage authors & contributors
 SPDX-License-Identifier: MIT */
 
-import { Card } from "@polkadot-ui/react/base/structure/Card";
+import { Card } from "@polkadot-ui/react";
 import { SimpleEditor } from "../../lib/SimpleEditor";
-import { Grid } from "@polkadot-ui/react/base/structure/Grid";
+import { Grid } from "@polkadot-ui/react";
 import { Demo } from "../../lib/Demo";
 
 export const CardWithGridSystem = () => {

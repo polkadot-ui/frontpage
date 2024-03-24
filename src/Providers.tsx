@@ -5,7 +5,7 @@ import { ReactNode } from "react";
 import { ThemesProvider } from "./contexts/Theme";
 import { UIProvider } from "./contexts/UI";
 import { Theme } from "./Theme";
-import { AnyJson, AnyObject } from "@polkadot-ui/react/types";
+import { AnyJson, AnyObject } from "@polkadot-ui/utils";
 
 /*
  * A hook that wraps multiple context providers to a component and makes each parent context accessible.

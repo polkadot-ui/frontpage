@@ -8,15 +8,8 @@ import { Menu } from "./Menu";
 import { Footer } from "./Footer";
 import { Header } from "./Header";
 import { useEffect } from "react";
-import { useUi } from "./contexts/UI";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
-import { Side } from "@polkadot-ui/react/base/structure/Side";
-import { Body } from "@polkadot-ui/react/base/structure/Body";
-import { Main } from "@polkadot-ui/react/base/structure/Main";
 
 export const Router = () => {
-  const { sideMenuOpen } = useUi();
   const { pathname, hash } = useLocation();
 
   useEffect(() => {
@@ -39,28 +32,23 @@ export const Router = () => {
 
   return (
     <>
-      <Body>
+      <div className="core-body" style={{ display: "flex" }}>
         {/* App header */}
         <Header />
 
-        {/*Fixed menu toggle on smaller screens */}
-        <ToggleMenu />
-
         {/* Left side menu */}
-        <Side
-          open={sideMenuOpen}
-          minimised={false}
-          style={{
-            minHeight: "calc(100vh - 5.5rem)",
-          }}
-          width="20rem"
+        <div
+          style={{ minHeight: "calc(100vh - 5.5rem)", width: "20rem" }}
+          className={`core-side`}
         >
           <Menu />
-        </Side>
+        </div>
 
-        <Main
+        <div
+          className="core-main"
           style={{
             minHeight: "calc(100vh - 5.5rem)",
+            width: "calc(100vw - 20rem)",
           }}
         >
           <div className="main-area">
@@ -73,29 +61,11 @@ export const Router = () => {
               </Routes>
             </div>
           </div>
-        </Main>
-      </Body>
+        </div>
+      </div>
 
       {/* App footer */}
       <Footer />
     </>
-  );
-};
-
-const ToggleMenu = () => {
-  const { setSideMenu, sideMenuOpen } = useUi();
-
-  if (sideMenuOpen) {
-    return <></>;
-  }
-
-  return (
-    <button
-      className="toggle-menu"
-      type="button"
-      onClick={() => setSideMenu(!sideMenuOpen)}
-    >
-      <FontAwesomeIcon icon={faBars}></FontAwesomeIcon>{" "}
-    </button>
   );
 };

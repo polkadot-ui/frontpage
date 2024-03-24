@@ -3,7 +3,7 @@ SPDX-License-Identifier: MIT */
 
 import { SimpleEditor } from "../../lib/SimpleEditor";
 import { Demo } from "../../lib/Demo";
-import { Chart } from "@polkadot-ui/react/base/structure/Chart";
+import { Chart } from "@polkadot-ui/react";
 
 export const DonutStyles = () => {
   const code = `const themeColors = [

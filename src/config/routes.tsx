@@ -2,7 +2,6 @@
 SPDX-License-Identifier: MIT */
 import { ReactNode } from "react";
 
-import { Buttons } from "../docs/Components/Buttons";
 import { Loaders } from "../docs/Experimental/Loaders";
 import { Charts } from "../docs/Components/Charts";
 import { Polkicon } from "../docs/Components/Polkicon";
@@ -13,11 +12,8 @@ import { Grid } from "../docs/Experimental/Grid";
 import { Card } from "../docs/Experimental/Cards";
 import { AccountCard } from "../docs/Experimental/AccountCard";
 import { Odometer } from "../docs/Components/Odometer";
-import { Modal } from "../docs/Experimental/Modal";
 import { UtilitiesBase } from "../docs/Utilities/Base";
 import { UtilitiesUnit } from "../docs/Utilities/Unit";
-import { Switch } from "../docs/Experimental/Switch";
-import { Textfield } from "../docs/Experimental/Textfield";
 import { Overview } from "../docs/GettingStarted/Overview";
 import { Installation } from "../docs/GettingStarted/Installation";
 import { UsingThemes } from "../docs/GettingStarted/UsingThemes";
@@ -101,30 +97,6 @@ const componentsLayoutRoutes = [
     name: "Card",
     element: <Card />,
   },
-  {
-    path: "modal",
-    name: "Modal",
-    element: <Modal />,
-  },
-];
-
-// Input Components
-const componentsInputRoutes = [
-  {
-    path: "buttons",
-    name: "Buttons",
-    element: <Buttons />,
-  },
-  {
-    path: "switch",
-    name: "Switch",
-    element: <Switch />,
-  },
-  {
-    path: "textfield",
-    name: "Textfield",
-    element: <Textfield />,
-  },
 ];
 
 const assetsRoutes = [
@@ -193,7 +165,6 @@ export const routes: Routes = [
   ...assetsRoutes,
   ...componentsRoutes,
   ...componentsLayoutRoutes,
-  ...componentsInputRoutes,
   ...recipesRoutes,
   ...utilsRoutes,
 ];

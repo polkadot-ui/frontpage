@@ -5,13 +5,12 @@ import {
   AccountCard,
   ExtraComponentProps,
   IconProps,
-} from "@polkadot-ui/react/complex/AccountCard";
-import { Button } from "@polkadot-ui/react";
+} from "@polkadot-ui/react";
 import { SimpleEditor } from "../../lib/SimpleEditor";
 import { Demo } from "../../lib/Demo";
 
 export const AccountCardPageAdvancedExtraComponentDiff = () => {
-  const code = `import { AccountCard, IconProps, ExtraComponentProps } from "@polkadot-ui/react/complex/AccountCard";
+  const code = `import { AccountCard, IconProps, ExtraComponentProps } from "@polkadot-ui/react";
 ...
 
 const iconProps: IconProps = {
@@ -48,14 +47,13 @@ return (
 
   const extraComponentProps: ExtraComponentProps = {
     component: (
-      <Button
-        type="monoInvert"
-        text="log"
-        marginRight
+      <button
         onClick={() =>
           console.log("1f1yYj2bCFhJCTVdeWLDueUsrZynLAaj6jeMy18fjZ7Cr73")
         }
-      />
+      >
+        log
+      </button>
     ),
     gridSize: 1,
     justify: "space-around",

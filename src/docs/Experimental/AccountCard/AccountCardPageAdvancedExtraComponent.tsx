@@ -5,14 +5,13 @@ import {
   AccountCard,
   ExtraComponentProps,
   IconProps,
-} from "@polkadot-ui/react/complex/AccountCard";
+} from "@polkadot-ui/react";
 
-import { Button } from "@polkadot-ui/react";
 import { SimpleEditor } from "../../lib/SimpleEditor";
 import { Demo } from "../../lib/Demo";
 
 export const AccountCardPageAdvancedExtraComponent = () => {
-  const code = `import { AccountCard, IconProps, ExtraComponentProps } from "@polkadot-ui/react/complex/AccountCard";
+  const code = `import { AccountCard, IconProps, ExtraComponentProps } from "@polkadot-ui/react";
 ...
 
 // Note: space/size of main component is automatically calculated based on the given sizes from the icon and extra component; 
@@ -50,14 +49,13 @@ return (
 
   const extraComponentProps: ExtraComponentProps = {
     component: (
-      <Button
-        type="mono"
-        text="log"
-        marginRight
+      <button
         onClick={() =>
           console.log("1f1yYj2bCFhJCTVdeWLDueUsrZynLAaj6jeMy18fjZ7Cr73")
         }
-      />
+      >
+        Log
+      </button>
     ),
     gridSize: 2,
     justify: "flex-end",

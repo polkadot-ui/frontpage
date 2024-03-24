@@ -3,7 +3,7 @@ SPDX-License-Identifier: MIT */
 
 import { Demo } from "../../lib/Demo";
 import { SimpleEditor } from "../../lib/SimpleEditor";
-import { Grid } from "@polkadot-ui/react/base/structure/Grid";
+import { Grid } from "@polkadot-ui/react";
 
 export const GridAlignBottomEnd = () => {
   const code = `<Grid row alignItems="flex-end">
