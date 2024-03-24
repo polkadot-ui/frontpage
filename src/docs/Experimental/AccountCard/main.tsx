@@ -13,9 +13,9 @@ import { AccountCardPageAdvancedEllipsisExtreme } from "./AccountCardPageAdvance
 import { AccountCardPageAdvancedExtraComponent } from "./AccountCardPageAdvancedExtraComponent";
 import { AccountCardPageAdvancedExtraComponentDiff } from "./AccountCardPageAdvancedExtraComponentDiff";
 import { AccountCardPageAdvancedVariousIconChanges } from "./AccountCardPageAdvancedVariousIconChanges";
-import { AccountCardPageStakingSamples } from "./AccountCardPageStakingSamples";
-
+import { AccountCardPageMinimizedSamples } from "./AccountCardPageMinimizedSamples";
 import { DocProps } from "../../lib/types";
+import { AccountCardPageShowcase } from "./AccountCardPageShowcase";
 
 export const Doc = ({ folder, npm }: DocProps) => {
   return (
@@ -27,6 +27,9 @@ export const Doc = ({ folder, npm }: DocProps) => {
         npm={npm}
         status="experimental"
       />
+      <p>
+        <AccountCardPageShowcase />
+      </p>
       <h4>Introduction</h4>
       <p>
         The <code>AccountCard</code> recipe is meant to exist for quick and fast
@@ -105,9 +108,9 @@ export const Doc = ({ folder, npm }: DocProps) => {
       </p>
       <AccountCardPageAdvancedExtraComponentDiff />
       <AccountCardPageAdvancedVariousIconChanges />
-      <h3>Sample that fits to Polkadot Staking Dashboard</h3>
+      <h3>Mini customized AccountCard</h3>
       <p>Code below is used in both of the following examples.</p>
-      <AccountCardPageStakingSamples />
+      <AccountCardPageMinimizedSamples />
     </>
   );
 };

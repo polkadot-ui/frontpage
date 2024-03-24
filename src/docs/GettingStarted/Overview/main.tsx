@@ -5,6 +5,7 @@ import { Edit } from "../../lib/Edit";
 import { Header } from "../../lib/Header";
 import { Note } from "../../lib/Note";
 import { DocProps } from "../../lib/types";
+import pkg from "../../../../package.json";
 
 export const Doc = ({ folder }: DocProps) => {
   return (
@@ -31,6 +32,9 @@ export const Doc = ({ folder }: DocProps) => {
             rel="noreferrer"
           >
             <code>@polkadot-ui/core</code>
+            <span style={{ padding: "0 1rem" }}>
+              v.{pkg.dependencies["@polkadot-ui/core"].replace("^", "")}
+            </span>
           </a>
           : Core styles and themes for Polkadot dApps.
         </li>
@@ -41,6 +45,9 @@ export const Doc = ({ folder }: DocProps) => {
             rel="noreferrer"
           >
             <code>@polkadot-ui/react</code>
+            <span style={{ padding: "0 1rem" }}>
+              v.{pkg.dependencies["@polkadot-ui/react"].replace("^", "")}
+            </span>
           </a>
           : Functional React components for Polkadot dApps.
         </li>
@@ -51,6 +58,9 @@ export const Doc = ({ folder }: DocProps) => {
             rel="noreferrer"
           >
             <code>@polkadot-ui/assets</code>
+            <span style={{ padding: "0 1rem" }}>
+              v.{pkg.dependencies["@polkadot-ui/assets"].replace("^", "")}
+            </span>
           </a>
           : Data sources and graphical assets for key ecosystem elements, such
           as web extension wallets and validator operators.
@@ -62,6 +72,9 @@ export const Doc = ({ folder }: DocProps) => {
             rel="noreferrer"
           >
             <code>@polkadot-ui/utils</code>
+            <span style={{ padding: "0 1rem" }}>
+              v.{pkg.dependencies["@polkadot-ui/utils"].replace("^", "")}
+            </span>
           </a>
           : Common utility functions to aid in Polkadot dApp development.
         </li>
