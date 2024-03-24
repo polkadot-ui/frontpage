@@ -1,12 +1,9 @@
-/* @license Copyright 2024 @polkadot-ui/frontpage authors & contributors
-SPDX-License-Identifier: MIT */
-
-import { AccountCard, IconProps } from "@polkadot-ui/react/complex/AccountCard";
+import { AccountCard, IconProps } from "@polkadot-ui/react";
 import { SimpleEditor } from "../../lib/SimpleEditor";
 import { Demo } from "../../lib/Demo";
 
 export const AccountCardPageAdvancedVariousIconChanges = () => {
-  const codeF = `import { AccountCard, IconProps, ExtraComponentProps } from "@polkadot-ui/react/complex/AccountCard";
+  const codeF = `import { AccountCard, IconProps, ExtraComponentProps } from "@polkadot-ui/react";
 ...
 
 const iconProps: IconProps = {

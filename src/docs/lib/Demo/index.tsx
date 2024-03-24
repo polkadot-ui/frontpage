@@ -1,8 +1,4 @@
-/* @license Copyright 2024 @polkadot-ui/frontpage authors & contributors
-SPDX-License-Identifier: MIT */
-
 import { useTheme } from "../../../contexts/Theme";
-// Import the base cloud-core styles to ensure the theme styles are applied instead of doc styles.
 import "@polkadot-ui/core/css/styles/index.css";
 import { valEmpty } from "@polkadot-ui/react/utils";
 // Import each supported theme here.

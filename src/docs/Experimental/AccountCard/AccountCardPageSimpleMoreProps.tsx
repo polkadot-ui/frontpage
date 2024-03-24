@@ -1,13 +1,10 @@
-/* @license Copyright 2024 @polkadot-ui/frontpage authors & contributors
-SPDX-License-Identifier: MIT */
-
-import { AccountCard, IconProps } from "@polkadot-ui/react/complex/AccountCard";
+import { AccountCard, IconProps } from "@polkadot-ui/react";
 import { SimpleEditor } from "../../lib/SimpleEditor";
 import { Demo } from "../../lib/Demo";
 
 export const AccountCardPageSimpleMoreProps = () => {
   const code = `
-import { AccountCard, IconProps } from "@polkadot-ui/react/complex/AccountCard";
+import { AccountCard, IconProps } from "@polkadot-ui/react";
 ...
 const iconProps: IconProps = {
   copy: true,

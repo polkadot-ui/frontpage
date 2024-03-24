@@ -1,6 +1,3 @@
-/* @license Copyright 2024 @polkadot-ui/frontpage authors & contributors
-SPDX-License-Identifier: MIT */
-
 import { Edit } from "../../lib/Edit";
 import { Header } from "../../lib/Header";
 import { LoaderCube } from "./LoaderCube";

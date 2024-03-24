@@ -1,9 +1,6 @@
-/* @license Copyright 2024 @polkadot-ui/frontpage authors & contributors
-SPDX-License-Identifier: MIT */
-
 import { SimpleEditor } from "../../lib/SimpleEditor";
 import { Demo } from "../../lib/Demo";
-import { Chart } from "@polkadot-ui/react/base/structure/Chart";
+import { Chart } from "@polkadot-ui/react";
 
 const colors = [
   { value: 60, color: "red" },

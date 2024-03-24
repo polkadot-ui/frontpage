@@ -1,13 +1,9 @@
-/* @license Copyright 2024 @polkadot-ui/frontpage authors & contributors
-SPDX-License-Identifier: MIT */
-
 import { Edit } from "../../lib/Edit";
 import { Note } from "../../lib/Note";
 import { Header } from "../../lib/Header";
 import { OverlayProvider } from "./OverlayProvider";
 import { OverlayBasic } from "./OverlayBasic";
 import { OpenOverlay } from "./OpenOverlay";
-import { H2, H3, H4 } from "../../lib/Headers";
 import { DocProps } from "../../lib/types";
 import { OverlayConfig } from "./OverlayConfig";
 
@@ -115,7 +111,7 @@ export const Doc = ({ folder, npm }: DocProps) => {
       </p>
       <p>The following example shows how modals can be opened:</p>
       <OpenOverlay />
-      <H4 id="size-and-options">Modal size and options</H4>
+      <h4 id="size-and-options">Modal size and options</h4>
       <p>
         Modal size can be set using the <code>size</code> property.
       </p>

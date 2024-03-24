@@ -1,6 +1,3 @@
-/* @license Copyright 2024 @polkadot-ui/frontpage authors & contributors
-SPDX-License-Identifier: MIT */
-
 import { Edit } from "../../lib/Edit";
 import { Header } from "../../lib/Header";
 import { DocProps } from "../../lib/types";
@@ -8,7 +5,6 @@ import { ThemeExample } from "./ThemeExample";
 import { Note } from "../../lib/Note";
 import { AccentColorExample } from "./AccentColorExample";
 import { ThemeColorExample } from "./ThemeColorExample";
-import { H2, H3 } from "../../lib/Headers";
 
 export const Doc = ({ folder }: DocProps) => {
   return (

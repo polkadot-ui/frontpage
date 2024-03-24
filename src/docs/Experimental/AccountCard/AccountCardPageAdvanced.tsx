@@ -1,13 +1,9 @@
-/* @license Copyright 2024 @polkadot-ui/frontpage authors & contributors
-SPDX-License-Identifier: MIT */
-
-import { AccountCard, IconProps } from "@polkadot-ui/react/complex/AccountCard";
-import { Grid } from "@polkadot-ui/react/base/structure/Grid";
+import { AccountCard, IconProps, Grid } from "@polkadot-ui/react";
 import { SimpleEditor } from "../../lib/SimpleEditor";
 import { Demo } from "../../lib/Demo";
 
 export const AccountCardPageAdvanced = () => {
-  const code = `import { AccountCard, IconProps, } from "@polkadot-cloud/recipes/AccountCard";
+  const code = `import { AccountCard, IconProps, } from "@polkadot-ui/react";
 ...
 const iconProps: IconProps = {
   copy: false,

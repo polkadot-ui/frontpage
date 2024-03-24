@@ -1,6 +1,3 @@
-// Copyright 2024 @polkadot-ui/frontpage authors & contributors
-// SPDX-License-Identifier: MIT
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import IconSVG from "./svg/polkadot_pink.svg?react";
 import { useGlitch } from "react-powerglitch";

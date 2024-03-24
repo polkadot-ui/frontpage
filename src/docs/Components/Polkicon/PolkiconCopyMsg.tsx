@@ -1,7 +1,4 @@
-/* @license Copyright 2024 @polkadot-ui/frontpage authors & contributors
-SPDX-License-Identifier: MIT */
-
-import { Polkicon } from "@polkadot-ui/react/icons/Polkicon";
+import { Polkicon } from "@polkadot-ui/react";
 import { SimpleEditor } from "../../lib/SimpleEditor";
 import { Demo } from "../../lib/Demo";
 

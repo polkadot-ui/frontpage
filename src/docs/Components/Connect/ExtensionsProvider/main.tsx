@@ -1,6 +1,3 @@
-/* @license Copyright 2024 @polkadot-ui/frontpage authors & contributors
-SPDX-License-Identifier: MIT */
-
 import { Edit } from "../../../lib/Edit";
 import { Header } from "../../../lib/Header";
 import { DocProps } from "../../../lib/types";
@@ -8,7 +5,6 @@ import { ProviderExample } from "./ProviderExample";
 import { Note } from "../../../lib/Note";
 import { Link } from "react-router-dom";
 import { HookExample } from "./HookExample";
-import { H2, H3 } from "../../../lib/Headers";
 import { SimpleEditor } from "../../../lib/SimpleEditor";
 
 export const Doc = ({ folder, npm }: DocProps) => {

@@ -1,19 +1,16 @@
-/* @license Copyright 2024 @polkadot-ui/frontpage authors & contributors
-SPDX-License-Identifier: MIT */
-
 import {
   AccountCard,
   EllipsisProps,
   ExtraComponentProps,
   IconProps,
   TitleProps,
-} from "@polkadot-ui/react/complex/AccountCard";
+  Grid,
+} from "@polkadot-ui/react";
 import { SimpleEditor } from "../../lib/SimpleEditor";
-import { Grid } from "@polkadot-ui/react/base/structure/Grid";
 import { HPosition } from "@polkadot-ui/react/utils/types";
 import { Demo } from "../../lib/Demo";
 
-export const AccountCardPageStakingSamples = () => {
+export const AccountCardPageMinimizedSamples = () => {
   const commonCode = `const titleProps: TitleProps = {
   address: "1f1yYj2bCFhJCTVdeWLDueUsrZynLAaj6jeMy18fjZ7Cr73",
   name: "The name of the account",

@@ -1,9 +1,5 @@
-/* @license Copyright 2024 @polkadot-ui/frontpage authors & contributors
-SPDX-License-Identifier: MIT */
-
-import { AccountCard, IconProps } from "@polkadot-ui/react/complex/AccountCard";
+import { AccountCard, IconProps } from "@polkadot-ui/react";
 import { SimpleEditor } from "../../lib/SimpleEditor";
-import { Switch } from "@polkadot-ui/react/base/inputs/Switch";
 import { Demo } from "../../lib/Demo";
 
 export const AccountCardPageSimple = () => {
@@ -28,7 +24,7 @@ return (
           icon={iconProps}
           title={{ address: "1f1yYj2bCFhJCTVdeWLDueUsrZynLAaj6jeMy18fjZ7Cr73" }}
           extraComponent={{
-            component: <Switch />,
+            component: <button>Some button</button>,
             position: "right",
           }}
         />

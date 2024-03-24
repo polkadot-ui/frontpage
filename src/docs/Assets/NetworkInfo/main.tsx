@@ -1,5 +1,3 @@
-/* @license Copyright 2024 @polkadot-ui/frontpage authors & contributors
-SPDX-License-Identifier: MIT */
 import PolkadotExample from "./polkadot_example.png";
 
 import { Note } from "../../lib/Note";

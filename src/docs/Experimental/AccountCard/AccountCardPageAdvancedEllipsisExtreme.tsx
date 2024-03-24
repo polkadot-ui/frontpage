@@ -1,14 +1,10 @@
-/* @license Copyright 2024 @polkadot-ui/frontpage authors & contributors
-SPDX-License-Identifier: MIT */
-
-import { AccountCard } from "@polkadot-ui/react/complex/AccountCard";
-import { Grid } from "@polkadot-ui/react/base/structure/Grid";
+import { AccountCard, Grid } from "@polkadot-ui/react";
 import { SimpleEditor } from "../../lib/SimpleEditor";
 import { Demo } from "../../lib/Demo";
 
 export const AccountCardPageAdvancedEllipsisExtreme = () => {
   const code = `
-import { AccountCard, IconProps } from "@polkadot-ui/react/complex/AccountCard";
+import { AccountCard, IconProps } from "@polkadot-ui/react";
 ...
 
 return (
