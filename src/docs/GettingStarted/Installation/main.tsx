@@ -1,6 +1,3 @@
-/* @license Copyright 2024 @polkadot-ui/frontpage authors & contributors
-SPDX-License-Identifier: MIT */
-
 import { Link } from "react-router-dom";
 import { Edit } from "../../lib/Edit";
 import { Header } from "../../lib/Header";
@@ -10,7 +7,6 @@ import { InstallReact } from "./InstallReact";
 import { InstallReactCore } from "./InstallReactCore";
 import { InstallBasic } from "./InstallBasic";
 import { Note } from "../../lib/Note";
-import { H2, H3 } from "../../lib/Headers";
 
 export const Doc = ({ folder }: DocProps) => {
   return (

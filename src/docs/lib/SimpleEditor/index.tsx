@@ -1,6 +1,3 @@
-/* @license Copyright 2024 @polkadot-ui/frontpage authors & contributors
-SPDX-License-Identifier: MIT */
-
 import { languages, highlight } from "prismjs";
 import PrismJSX from "./languages/jsx.min.mjs";
 import PrismTSX from "./languages/tsx.min.mjs";

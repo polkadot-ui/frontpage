@@ -1,6 +1,3 @@
-/* @license Copyright 2024 @polkadot-ui/frontpage authors & contributors
-SPDX-License-Identifier: MIT */
-
 import { useState } from "react";
 import { SimpleEditor } from "../../lib/SimpleEditor";
 import { Odometer } from "@polkadot-ui/react";

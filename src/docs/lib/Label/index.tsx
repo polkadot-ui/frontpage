@@ -1,6 +1,3 @@
-/* @license Copyright 2024 @polkadot-ui/frontpage authors & contributors
-SPDX-License-Identifier: MIT */
-
 import { IconDefinition } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 

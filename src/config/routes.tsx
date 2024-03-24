@@ -1,5 +1,3 @@
-/* @license Copyright 2024 @polkadot-ui/frontpage authors & contributors
-SPDX-License-Identifier: MIT */
 import { ReactNode } from "react";
 
 import { Loaders } from "../docs/Experimental/Loaders";

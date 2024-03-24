@@ -1,6 +1,3 @@
-/* @license Copyright 2024 @polkadot-ui/frontpage authors & contributors
-SPDX-License-Identifier: MIT */
-
 import EnkryptSVG from "@polkadot-ui/assets/extensions/svg/enkrypt.svg?react";
 import FearlessWalletSVG from "@polkadot-ui/assets/extensions/svg/fearlesswallet.svg?react";
 import PolkadotJSSVG from "@polkadot-ui/assets/extensions/svg/polkadotjs.svg?react";

@@ -1,11 +1,7 @@
-/* @license Copyright 2024 @polkadot-ui/frontpage authors & contributors
-SPDX-License-Identifier: MIT */
-
 import { Edit } from "../../lib/Edit";
 import { Note } from "../../lib/Note";
 import { Header } from "../../lib/Header";
 import { OdometerH1 } from "./OdometerH1";
-import { H2, H3 } from "../../lib/Headers";
 import { DocProps } from "../../lib/types";
 
 export const Doc = ({ folder, npm }: DocProps) => {

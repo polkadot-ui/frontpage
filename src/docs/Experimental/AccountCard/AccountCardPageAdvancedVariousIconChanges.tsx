@@ -1,6 +1,3 @@
-/* @license Copyright 2024 @polkadot-ui/frontpage authors & contributors
-SPDX-License-Identifier: MIT */
-
 import { AccountCard, IconProps } from "@polkadot-ui/react";
 import { SimpleEditor } from "../../lib/SimpleEditor";
 import { Demo } from "../../lib/Demo";

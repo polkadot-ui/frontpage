@@ -1,6 +1,3 @@
-/* @license Copyright 2024 @polkadot-ui/frontpage authors & contributors
-SPDX-License-Identifier: MIT */
-
 import { Edit } from "../../lib/Edit";
 import { Header } from "../../lib/Header";
 import { PieSimple } from "./PieSimple";
@@ -9,7 +6,6 @@ import { ChartSpeed } from "./ChartSpeed";
 
 import { DocProps } from "../../lib/types";
 import { PieDead } from "./PieDead";
-import { H2, H3 } from "../../lib/Headers";
 
 export const Doc = ({ folder, npm }: DocProps) => {
   return (

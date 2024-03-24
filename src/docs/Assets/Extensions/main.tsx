@@ -1,12 +1,8 @@
-/* @license Copyright 2024 @polkadot-ui/frontpage authors & contributors
-SPDX-License-Identifier: MIT */
-
 import { Edit } from "../../lib/Edit";
 import { Note } from "../../lib/Note";
 import { Header } from "../../lib/Header";
 import { ExtensionsSvg } from "./ExtensionsSvg";
 import { ExtensionsJsx } from "./ExtensionsJsx";
-import { H2, H3, H4 } from "../../lib/Headers";
 import { DocProps } from "../../lib/types";
 import { ImportSimple } from "./ImportSimple";
 import { External } from "../../lib/External";
@@ -66,7 +62,7 @@ export const Doc = ({ folder, npm }: DocProps) => {
 
       <ImportSimple />
 
-      <H4 id="supported-browser-extensions">Supported Browser Extensions:</H4>
+      <h4 id="supported-browser-extensions">Supported Browser Extensions:</h4>
 
       <ul>
         <li>
@@ -129,7 +125,7 @@ export const Doc = ({ folder, npm }: DocProps) => {
         </li>
       </ul>
 
-      <H4 id="supported-hardware-extensions">Supported Hardware Extensions:</H4>
+      <h4 id="supported-hardware-extensions">Supported Hardware Extensions:</h4>
 
       <ul>
         <li>

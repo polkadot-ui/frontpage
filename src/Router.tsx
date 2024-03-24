@@ -1,6 +1,3 @@
-// Copyright 2024 @polkadot-ui/frontpage authors & contributors
-// SPDX-License-Identifier: MIT
-
 import { Route, Routes, useLocation } from "react-router-dom";
 import { routes } from "./config/routes";
 import { Error } from "./Error";

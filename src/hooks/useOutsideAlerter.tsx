@@ -1,6 +1,3 @@
-// Copyright 2024 @polkadot-ui/frontpage authors & contributors
-// SPDX-License-Identifier: MIT
-
 import { AnyFunction, AnyObject } from "@polkadot-ui/utils";
 import { useEffect } from "react";
 
