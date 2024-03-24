@@ -89,7 +89,7 @@ export const AccountCardPageShowcase = () => {
               borderRadius: "0.5rem",
             }}
           >
-            Swap {isName ? "address" : "name"}
+            Change to {isName ? "address" : "name"}
           </button>
         </Grid>
         <Grid column sm={2}>
