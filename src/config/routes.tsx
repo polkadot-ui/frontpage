@@ -177,13 +177,18 @@ export const routeCategories: RouteCategories = [
       {
         paths: ["installation"],
       },
+    ],
+  },
+  {
+    name: "Core",
+    paths: [
       {
         paths: ["using-themes"],
       },
     ],
   },
   {
-    name: "Data & Assets",
+    name: "Assets",
     paths: [
       {
         paths: ["extensions"],
@@ -208,30 +213,15 @@ export const routeCategories: RouteCategories = [
   //   ],
   // },
   {
-    name: "Network Components",
+    name: "React Components",
     paths: [
       {
-        paths: ["polkicon"],
+        heading: "Network Components",
+        paths: ["polkicon", "account-card"],
       },
       {
-        paths: ["account-card"],
-      },
-    ],
-  },
-  {
-    name: "Generic Components",
-    paths: [
-      {
-        paths: ["odometer"],
-      },
-      // {
-      //   paths: ["overlay"],
-      // },
-      {
-        paths: ["charts"],
-      },
-      {
-        paths: ["loader"],
+        heading: "Generic",
+        paths: ["odometer", "charts", "loader"],
       },
       // Activate when the modal is actually working
       // {
