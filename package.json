@@ -42,7 +42,7 @@
     "@polkadot-ui/utils": "^0.0.1-alpha.2",
     "@polkadot/keyring": "^12.6.2",
     "@polkadot/util": "^12.6.2",
-    "@types/react": "^18.2.69",
+    "@types/react": "^18.2.70",
     "bignumber.js": "^9.1.2",
     "eslint": "^8.57.0",
     "eslint-config-airbnb": "^19.0.4",
