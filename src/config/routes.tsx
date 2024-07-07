@@ -65,8 +65,8 @@ const recipesRoutes = [
     element: <AccountCard />,
   },
   {
-    path: "connect",
-    name: "Connect",
+    path: "wallet-connect",
+    name: "Wallets Connect",
     element: <ConnectCard />,
   },
 ];
@@ -198,7 +198,7 @@ export const routeCategories: RouteCategories = [
     paths: [
       {
         heading: "Network Components",
-        paths: ["polkicon", "account-card", "connect"],
+        paths: ["polkicon", "account-card", "wallet-connect"],
       },
       {
         heading: "Generic",
