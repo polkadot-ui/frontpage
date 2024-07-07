@@ -5,7 +5,7 @@
   "description": "Polkadot UI Landing Page.",
   "type": "module",
   "scripts": {
-    "preinstall": "npx only-allow pnpm",
+    "preinstall": "node preinstall.js",
     "clear": "rm -rf node_modules",
     "dev": "vite --base='/'",
     "deploy": "gh-pages -d build",
