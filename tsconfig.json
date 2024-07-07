@@ -23,7 +23,7 @@
   },
   "references": [{ "path": "./tsconfig.node.json" }],
   "include": [
-    "./**/*", "app", "scripts"
+    "./**/*.ts[x]", "app", "scripts"
   ],
   "exclude": [
     "**/*/node_modules",
