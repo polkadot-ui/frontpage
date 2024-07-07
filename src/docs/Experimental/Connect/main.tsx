@@ -11,7 +11,7 @@ export const Doc = ({ folder, npm }: DocProps) => {
     <>
       <Edit folder={folder} />
       <Header
-        title="Wallet Connect"
+        title="Wallets Connect"
         subtitle="A React recipe that allows easy integration of extension wallets with browser app."
         npm={npm}
         status="experimental"
@@ -21,13 +21,13 @@ export const Doc = ({ folder, npm }: DocProps) => {
       </p>*/}
       <h4>Introduction</h4>
       <p>
-        The <code>Wallet Connect</code> recipe (which actually is 2 specific
-        Providers - the ExtensionProvider which identifies the extensions
-        installed in the browser and the AccountProvider which is listing the
-        accounts from the selected extensions) is meant to exist for quick and
-        fast integration of any app with the installed wallets of the user's
-        browser. It identifies the installed extension and upon clicking on one,
-        it prompts the user to connect be shown.
+        The <code>Wallets Connect</code> recipe (which actually is 2 specific
+        Providers - the <code>ExtensionProvider</code> which identifies the
+        extensions installed in the browser and the <code>AccountProvider</code>{" "}
+        which is listing the accounts from the selected extensions) is meant to
+        exist for quick and fast integration of any app with the installed
+        wallets of the user's browser. It identifies the installed extension and
+        upon clicking on one, it prompts the user to connect be shown.
       </p>
       <ConnectPageSimple />
     </>

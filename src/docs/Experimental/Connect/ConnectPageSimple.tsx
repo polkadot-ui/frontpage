@@ -25,6 +25,13 @@ return (
 
   return (
     <>
+      <h4 style={{ paddingTop: "2rem" }}>
+        Select an account from the demo below (you must have some extension
+        installed 🙂) :
+      </h4>
+      <p>Selected extension is: {selectedAccount?.extension} </p>
+      <p>Selected account is: {selectedAccount?.name} </p>
+      <p>Selected address is: {selectedAccount?.address} </p>
       <Demo
         showThemes={false}
         style={{ display: "flex", flexDirection: "column" }}
