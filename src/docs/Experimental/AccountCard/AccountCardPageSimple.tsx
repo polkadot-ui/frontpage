@@ -14,6 +14,7 @@ return (
 
   const iconProps: IconProps = {
     position: "left",
+    address: "1f1yYj2bCFhJCTVdeWLDueUsrZynLAaj6jeMy18fjZ7Cr73",
   };
 
   return (

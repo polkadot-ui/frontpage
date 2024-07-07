@@ -1,6 +1,6 @@
 /* @license Copyright 2024 @polkadot-ui/frontpage authors & contributors
-SPDX-License-Identifier: MIT */ import { Header } from "../../lib/Header";
-
+SPDX-License-Identifier: MIT */
+import { Header } from "../../lib/Header";
 import { Edit } from "../../lib/Edit";
 
 import { AccountCardPageInfo } from "./AccountCardPageInfo";

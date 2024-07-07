@@ -28,7 +28,7 @@ const iconProps: IconProps = {
     size: 40,
     gridSize: 1,
     justify: "flex-start",
-    dark: false,
+    address: "1f1yYj2bCFhJCTVdeWLDueUsrZynLAaj6jeMy18fjZ7Cr73",
     colors: ["blue", "green"],
     outerColor: "yellow",
   };

@@ -36,6 +36,7 @@ export const AccountCardPageShowcase = () => {
     gridSize: 1,
     justify: "space-around",
     copy: true,
+    address: "1f1yYj2bCFhJCTVdeWLDueUsrZynLAaj6jeMy18fjZ7Cr73",
   };
 
   const extraComponentProps: ExtraComponentProps = {

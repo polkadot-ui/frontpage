@@ -89,6 +89,7 @@ const extraComponentProps: ExtraComponentProps = {
     size: 20,
     gridSize: 1,
     justify: "flex-start",
+    address: "1f1yYj2bCFhJCTVdeWLDueUsrZynLAaj6jeMy18fjZ7Cr73",
   };
 
   const extraComponentProps: ExtraComponentProps = {
