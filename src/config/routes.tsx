@@ -6,17 +6,14 @@ import { Polkicon } from "../docs/Components/Polkicon";
 import { Extensions } from "../docs/Assets/Extensions";
 import { Validators } from "../docs/Assets/Validators";
 import { NetworkInfo } from "src/docs/Assets/NetworkInfo";
-import { Grid } from "../docs/Experimental/Grid";
-import { Card } from "../docs/Experimental/Cards";
 import { AccountCard } from "../docs/Experimental/AccountCard";
+import { ConnectCard } from "../docs/Experimental/ConnectCard";
 import { Odometer } from "../docs/Components/Odometer";
 import { UtilitiesBase } from "../docs/Utilities/Base";
 import { UtilitiesUnit } from "../docs/Utilities/Unit";
 import { Overview } from "../docs/GettingStarted/Overview";
 import { Installation } from "../docs/GettingStarted/Installation";
 import { UsingThemes } from "../docs/GettingStarted/UsingThemes";
-import { ExtensionsProvider } from "../docs/Components/Connect/ExtensionsProvider";
-import { ExtensionAccountsProvider } from "../docs/Components/Connect/ExtensionAccountsProvider";
 
 type Routes = {
   name: string;
@@ -67,6 +64,11 @@ const recipesRoutes = [
     name: "Account card",
     element: <AccountCard />,
   },
+  {
+    path: "connect",
+    name: "Connect",
+    element: <ConnectCard />,
+  },
 ];
 
 // utils
@@ -84,18 +86,18 @@ const utilsRoutes = [
 ];
 
 // Layout Components
-const componentsLayoutRoutes = [
-  {
-    path: "grid",
-    name: "Grid",
-    element: <Grid />,
-  },
-  {
-    path: "card",
-    name: "Card",
-    element: <Card />,
-  },
-];
+// const componentsLayoutRoutes = [
+//   {
+//     path: "grid",
+//     name: "Grid",
+//     element: <Grid />,
+//   },
+//   {
+//     path: "card",
+//     name: "Card",
+//     element: <Card />,
+//   },
+// ];
 
 const assetsRoutes = [
   {
@@ -116,16 +118,6 @@ const assetsRoutes = [
 ];
 
 const componentsRoutes = [
-  {
-    path: "extensions-provider",
-    name: "Extensions",
-    element: <ExtensionsProvider />,
-  },
-  {
-    path: "extension-accounts-provider",
-    name: "Extension Accounts",
-    element: <ExtensionAccountsProvider />,
-  },
   {
     path: "polkicon",
     name: "Polkicon",
@@ -162,7 +154,7 @@ export const routes: Routes = [
   ...gettingStartedRoutes,
   ...assetsRoutes,
   ...componentsRoutes,
-  ...componentsLayoutRoutes,
+  // ...componentsLayoutRoutes,
   ...recipesRoutes,
   ...utilsRoutes,
 ];
@@ -201,23 +193,12 @@ export const routeCategories: RouteCategories = [
       },
     ],
   },
-  // {
-  //   name: "Providers",
-  //   paths: [
-  //     {
-  //       paths: ["extensions-provider"],
-  //     },
-  //     {
-  //       paths: ["extension-accounts-provider"],
-  //     },
-  //   ],
-  // },
   {
     name: "React Components",
     paths: [
       {
         heading: "Network Components",
-        paths: ["polkicon", "account-card"],
+        paths: ["polkicon", "account-card", "connect"],
       },
       {
         heading: "Generic",
@@ -227,10 +208,10 @@ export const routeCategories: RouteCategories = [
       // {
       //   paths: ["modal"],
       // },
-      {
-        heading: "Layout",
-        paths: ["card", "grid"],
-      },
+      // {
+      //   heading: "Layout",
+      //   paths: ["card", "grid"],
+      // },
       // {
       //   heading: "Defaults",
       //   paths: ["buttons", "switch", "textfield"],
