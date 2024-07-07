@@ -7,7 +7,7 @@ import { Extensions } from "../docs/Assets/Extensions";
 import { Validators } from "../docs/Assets/Validators";
 import { NetworkInfo } from "src/docs/Assets/NetworkInfo";
 import { AccountCard } from "../docs/Experimental/AccountCard";
-import { ConnectCard } from "../docs/Experimental/ConnectCard";
+import { ConnectCard } from "../docs/Experimental/Connect";
 import { Odometer } from "../docs/Components/Odometer";
 import { UtilitiesBase } from "../docs/Utilities/Base";
 import { UtilitiesUnit } from "../docs/Utilities/Unit";
@@ -65,8 +65,8 @@ const recipesRoutes = [
     element: <AccountCard />,
   },
   {
-    path: "connect",
-    name: "Connect",
+    path: "wallet-connect",
+    name: "Wallets Connect",
     element: <ConnectCard />,
   },
 ];
@@ -198,7 +198,7 @@ export const routeCategories: RouteCategories = [
     paths: [
       {
         heading: "Network Components",
-        paths: ["polkicon", "account-card", "connect"],
+        paths: ["polkicon", "account-card", "wallet-connect"],
       },
       {
         heading: "Generic",
